@@ -48,7 +48,7 @@ timeBetweenExActions = 500
 
 -- Map
 -- NOTE: set mapName WITHOUT .otbm at the end
-mapName = "depths"
+mapName = "Depths"
 mapAuthor = "Tim/Pablo"
 
 -- Market
