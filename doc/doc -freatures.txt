@@ -1,0 +1,27 @@
+Features:
+- 100% custom map, monsters, spells
+- Duel wielding for certain vocations
+- AOE protection
+- Minigames (Bomber-man, Tag Arena)
+- Mining
+- Interactive shop
+- Fully featured custom upgrade system
+- Auto gold
+- Hidden treasures
+- Automatic bounty system
+- Waypoints for travel
+- Custom wands, based off maglevel
+- 4 vocation classes
+	- Two paths of promotion per vocation
+	- Over 20 unique vocations
+- Chance of resurrection upon death
+- Essence collecting, chance creature will drop it's essence
+- Cloths obtainable for unlocking outfits
+- Level based creatures
+- LOTS of hidden secrets
+
+
+50x skill rate
+About 30x exp rate, experience stages
+	- Custom monsters with custom experience, not rate vs CipSoft Tibia not easily determined
+10x magic rate

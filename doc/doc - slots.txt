@@ -1,0 +1,10 @@
+00000001 Head Slot
+00000002 Amulet Slot
+00000003 Backpack Slot
+00000004 Armor Slot
+00000005 Right Hand
+00000006 Left Hand
+00000007 Legs Slot
+00000008 Feet Slot
+00000009 Ring Slot
+00000010 Ammo Slot

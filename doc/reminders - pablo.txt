@@ -1,0 +1,4 @@
+{x = 2143, y = 2103, z = 7} hunting area
+{x = 2384, y = 2217, z = 7}NPC for quests regarding Vylns, kill x vylns maybe? get creative. I was thinking having a farmer npc that is complaning about Vylns stealing his farm animals for consumption
+{x = 2347, y = 2363, z = 7} area
+{x = 2418, y = 2345, z = 7}

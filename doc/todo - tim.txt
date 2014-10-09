@@ -1,0 +1,28 @@
+life drain spell -> take life, adds hp to self
+dota spells -> skype for youtube link
+message for looting legendary/rare/common items
+
+{x = 2917, y = 2465, z = 15}
+[1:20:49 PM] Pablo Gonzalez L: player needs to place fire bug item (5468) and pull lever
+[1:20:53 PM] Pablo Gonzalez L: to get teleported to another area
+[1:21:23 PM] Pablo Gonzalez L: Should be a quest there, im thinking about what we could do.... feel free to think too
+[1:21:25 PM] Pablo Gonzalez L: fire related
+
+
+NPCS - potion shop + sell low level wands and more
+main quest - series of tasks to better explore our map
+force intro tutorial with skip option
+
+{x = 2384, y = 2217, z = 7}NPC for quests regarding Vylns, kill x vylns maybe? get creative. I was thinking having a farmer npc that is complaning about Vylns stealing his farm animals for consumption
+
+{x = 2171, y = 2235, z = 7} Tree on there
+[01:30:51 p.m.] Pablo Gonzalez L: to to player to here
+[01:30:52 p.m.] Pablo Gonzalez L: {x = 2181, y = 2228, z = 6}
+
+Do Pablo
+PEX CHEST GIVES A 2 DEF SHIELD.... EITHER CHANGE THE SHEILD OR DO THE MODIFY STAT FOR QUEST
+
+Tags for Guilds
+Bounty system, kill ~10
+Whenever someone has killed more than 10 (we can change it) players in a time interval, server generates a broadcast message, saying" "player name" is wanted, bounty rewarded to the captor!"
+Then we make a rune... that is a catcher if hp lower than 10%

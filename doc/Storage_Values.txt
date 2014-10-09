@@ -1,0 +1,80 @@
+LAST SIMPLE QUEST UID USED: 1718
+Storage:
+100(UID)		- onAdvance: item upgrade. 
+103-107(UID)	- ACTIONS: temple_stone.lua
+108(UID)		- CREATURESCRIPTS: death_return.lua
+109(UID)		- ACTIONS: manarune.lua
+110, 111		- Squire Spells --> OBSOLOETE? REMOVE IF NOT USED
+1000-1500(UID)	- Non-movable objects
+1700(UID)		- Sell rune, confirm
+1701(UID)		- Spy spell
+1702-1703(UID)	- Colored Stone Quest
+1704(UID)		- Steal Shop
+1705(UID)		- Bomb Mini-game
+
+100(UID)		- Elevator
+101(UID)		- Catapult port
+102(UID)		- Tutorial
+103(UID)		- Player weaponType (0=sword, 1=club, 2=axe)
+104(UID)		- Player creation time
+
+2000(AID)		- Simple Quests
+2001(AID)		- Complex Quests
+2002-2003(AID)	- Training Rooms
+2004-2015(AID)	- Dota quest (2014/15 reserved, unused)
+2016(AID)		- Treasure chest
+2017-2018(AID)	- Coffin stairs
+2019-2030(AID)	- Mining
+2031(AID)		- Shop Items
+2032(AID)		- Colored Stone Quest
+2033(AID)		- Bomb Mini-game
+2034(AID)		- Oil Rig Quest
+2035(AID)		- Jungle Water Secret
+2036(AID)		- Bretain's Horses
+2037(AID)		- Pot buy
+2038(AID)		- first Weapon
+2039{AID}		- Fire bug quest
+2040{AID}		- Mining picks
+2041{AID}		- Tag
+2042(AID)		- Upgrade tokens
+2043(AID)		- Captured Mercents
+2044(AID)		- Hook
+2045(AID)		- Ace quest (Anhi like)
+2046-2047(AID)	- Energy quest (with Mine Wardens)
+2100(AID) 		- Haste Rune
+2200(AID)		- Waypoints
+
+3000			- Acolyte Quests
+3000(AID)		- Lead door + key
+
+
+14999(UID)			- Old voc storage (Ultimate abilities)
+
+15000-15899(UID)	- Complex Quests
+15000-15007(UID)	- Oil Rig Quest
+15008-15012(UID)	- Infernal 4 Rock Combo Quest
+15013-15014(UID)	- Energy quest (with Mine Wardens)
+
+15900-16000(UID)	- Quest Log Quests
+
+16001(UID)			- Banking, interest compound time
+16002(UID)			- Guild tags storage for npc
+16003(UID)			- Player frag count for bounty system
+16004(UID)			- Bounty flag
+16005-16011			- Tag
+16012-16014			- Gravedigger graves
+16015				- Ace quest (Anhi like)
+
+16900(UID)			- Depths Town chained quest variable
+16901(UID)			- Depths Town chained quest accepted/not flag
+
+17000-18000(UID)	- Creature Death Counters
+17000(UID)			- Sigmodon Death Count
+17001(UID)			- Lead Waste Death Count
+17002(UID)			- Vlyn Counter
+17003(UID)			- Count Captured Villagers
+
+20000-20500(UID)	- Waypoints
+
+
+

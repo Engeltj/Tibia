@@ -1,0 +1,30 @@
+-- ***Basic colours
+-- BLUE        = 5
+-- RED        = 180
+-- YELLOW      = 210
+
+-- ***More colours
+-- CRYSTAL    = 65
+-- BROWN      = 78
+-- PLATINUM    = 89
+-- PURPLE      = 147
+-- ORANGE      = 198
+-- PINK        = 203  <- low noticability
+
+-- ***Even more colours focused around different tints
+-- DARKRED    = 36
+-- DARKBLUE    = 2
+-- DARKGREEN  = 6
+-- LIGHTGREEN  = 30
+-- LIGHTBLUE  = 35
+-- LIMEGREEN  = 174 <- most recognizable as yellow
+
+-- ***Normal lights
+-- LIGHTGREY  = 172 <- normal light
+-- WHITE_EXP  = 215 <- normal light
+-- SKYBLUE    = 179 <- normal light
+-- GREY        = 129 <- normal light
+
+-- ***No category
+-- BLACK      = 1 <- dark dark blue
+-- NONE        = 255  <- weird mix of pink red and purple 
