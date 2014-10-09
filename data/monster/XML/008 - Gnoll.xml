@@ -51,7 +51,7 @@
 		<voice sentence="Uhh!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="25" chance="25000" /> -- gold
+		<item id="2148" countmax="25" chance="25000" /> <!-- gold -->
 		<item id="2676" chance="50000" /><!-- banana -->
 		<item id="2388" chance="3000" /><!-- lvl 1 axe -->
 		<item id="13298" chance="300" /><!-- carrot on a stick -->

@@ -29,6 +29,6 @@
 	</elements>
 	<loot>
 		<item id="10568" chance="1425"/> <!-- scorpion tail -->
-		<item id="2152" countmax="1" chance="1425"/> -- platinum coin
+		<item id="2152" countmax="1" chance="1425"/> <!-- platinum coin -->
 	</loot>
 </monster>

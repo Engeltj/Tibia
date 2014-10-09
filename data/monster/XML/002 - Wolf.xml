@@ -36,7 +36,7 @@
 	<loot>
 		<item id="2666" chance="50000" /><!-- meat -->
 		<item id="5897" countmax="3" chance="1000" /><!-- wolf paw -->
-		<item id="9928" chance="3000" /> -- lvl1 leaf legs
+		<item id="9928" chance="3000" /> <!-- lvl1 leaf legs -->
 		
 	</loot>
 </monster>

@@ -54,15 +54,15 @@
 		<voice sentence="Aeth thraes ae da"/>
 	</voices>
 	<loot>
-		<item id="5896" chance="5000"/> --Bear paw
+		<item id="5896" chance="5000"/> <!--Bear paw -->
 		<item id="2148" countmax="32" chance="25000" />
 		<item id="2403" chance="3000" />
 		<item id="2388" chance="2000" />
-		<item id="1987" chance="100000"> -- bag	
+		<item id="1987" chance="100000"> <!-- bag -->
 			<inside>
-				<item id="6500" chance="2000" countmax="1" /> -- demonic essence
-				<item id="5944" chance="1500" countmax="1" /> -- soul orb
-				<item id="2547" chance="4000" countmax="15" /> -- power bolt
+				<item id="6500" chance="2000" countmax="1" /> <!-- demonic essence -->
+				<item id="5944" chance="1500" countmax="1" /> <!-- soul orb -->
+				<item id="2547" chance="4000" countmax="15" /> <!-- power bolt -->
 			</inside>
 		</item>
 	</loot>

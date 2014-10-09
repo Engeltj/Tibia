@@ -16,7 +16,7 @@
 		<flag targetdistance="1"/>
 		<flag staticattack="90"/>
 		<flag runonhealth="0"/>
-		<flag skull="3" />
+		<!-- <flag skull="3" /> -->
 	</flags>
 	<attacks>
 		<attack name="melee" interval="1000" min="-12" max="-25"/>
@@ -45,8 +45,8 @@
 	<voices interval="5000" chance="10">
 	</voices>
 	<loot>
-		<item id="2148" countmax="15" chance="22000" /> -- gold
-		<item id="2403" chance="3000" /> -- lvl1 knife
-		<item id="2382" chance="3000" /> -- lvl1 club
+		<item id="2148" countmax="15" chance="22000" /> <!-- gold -->
+		<item id="2403" chance="3000" /> <!-- lvl1 knife -->
+		<item id="2382" chance="3000" /> <!-- lvl1 club -->
 	</loot>
 </monster>

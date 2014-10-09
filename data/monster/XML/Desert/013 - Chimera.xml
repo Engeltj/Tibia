@@ -37,8 +37,8 @@
 		<element holyPercent="-10"/>
 	</elements>
 	<loot>
-		<item id="2666" countmax="3" chance="7000" /> --meat
-		<item id="2199" chance="700" /> --garlic necklace
-		<item id="2148" countmax="47" chance="7000" /> --gold pieces
+		<item id="2666" countmax="3" chance="7000" /> <!--meat-->
+		<item id="2199" chance="700" /> <!--garlic necklace-->
+		<item id="2148" countmax="47" chance="7000" /> <!--gold pieces-->
 	</loot>
 </monster>

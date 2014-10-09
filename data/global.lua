@@ -1,4 +1,5 @@
 dofile('data/compat.lua')
+dofile('data/global-custom.lua')
 
 TRUE = true
 FALSE = false

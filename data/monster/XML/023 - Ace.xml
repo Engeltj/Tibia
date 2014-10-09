@@ -33,11 +33,11 @@
 	</elements>
 	<loot>	
 		<item id="2050" chance="20000"/><!-- torch -->
-		<item id="2684" countmax="2" chance="10000"/> --carrot
+		<item id="2684" countmax="2" chance="10000"/> <!--carrot -->
 		<item id="2148" countmax="55" chance="15000"/><!-- gold coin -->
 		<item id="2456" chance="2000"/><!-- bow -->
 		<item id="2544" countmax="24" chance="4000"/><!-- arrow -->
-		<item id="2379" chance="1200" /> -- dagger	
+		<item id="2379" chance="1200" /> <!-- dagger	 -->
 		<item id="12449" chance="1000"/><!-- misc -->	
 		<item id="8704" countmax="2" chance="2000"/><!-- hp pot -->				
 	</loot>

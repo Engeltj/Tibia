@@ -36,8 +36,8 @@
 	<loot>
 		<item id="2696" chance="50000" /><!-- cheese -->
 		<item id="2148" countmax="8" chance="23000"/>
-		<item id="2403" chance="2000" /> -- lvl1 knife
-		<item id="2382" chance="2000" /> -- lvl1 club
+		<item id="2403" chance="2000" /> <!-- lvl1 knife -->
+		<item id="2382" chance="2000" /> <!-- lvl1 club -->
 		
 	</loot>
 </monster>

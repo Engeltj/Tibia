@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+
+	<event type="advance" name="UpgradeItems" script="custom/upgrade_items.lua"/>
+	<event type="advance" name="onAdvancePlayer" script="custom/onAdvance.lua"/>
+	<event type="kill" name="GiveGold" script="custom/give_gold.lua"/>
+	<event type="kill" name="ModifyAttr" script="custom/modify_attr.lua"/>
+	<event type="kill" name="QuestsKill" script="custom/quests_kill.lua"/>
+	<event type="kill" name="Dota" script="custom/dota.lua"/>
+	<event type="preparedeath" name="DeathReturn" script="custom/death_return.lua"/>
+	<!-- <event type="throw" name="StealShop" script="custom/shop.lua"/> -->
+	<!-- <event type="throw" name="FirstWeapon" script="custom/first_weapon.lua"/> -->
+	<!-- <event type="look" name="StartDie" script="custom/startDie.lua"/> -->
+	<event type="login" name="Interest" script="custom/interest.lua"/>
+	<!-- <event type="target" name="Friendly" script="custom/friendly_fire.lua"/> -->
+	<event type="logout" name="TagCheck" script="custom/guildtag_check.lua"/>
+	<!-- <event type="login" name="Tutorial" script="custom/tutorial.lua"/>-->
+	<!-- <event type="areacombat" name="AOEProtect" script="custom/AOE_protect.lua"/> NOT NEEDED ANYMORE -->
+	<!-- <event type="target" name="Tag" script="custom/tag.lua"/> -->
+	<!-- <event type="throw" name="Gravedigger" script="custom/quest_gravedigger.lua"/> -->
+	<event type="kill" name="Farmer" script="custom/quest_farmer.lua"/>
+	<event type="preparedeath" name="corpseExplosion" script="custom/corpse_explosion.lua"/>
+
+
+
+	
+
 	<event type="login" name="PlayerLogin" script="login.lua"/>
 	<event type="login" name="FirstItems" script="firstitems.lua"/>
 	<event type="death" name="PlayerDeath" script="playerdeath.lua"/>

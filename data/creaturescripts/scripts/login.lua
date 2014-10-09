@@ -14,6 +14,27 @@ function onLogin(cid)
 	end
 	player:sendTextMessage(MESSAGE_STATUS_DEFAULT, loginStr)
 
+
+
+	--Custom
+	player:registerEvent(cid, "UpgradeItems")
+	player:registerEvent(cid, "onAdvancePlayer")
+	player:registerEvent(cid, "GiveGold")
+	player:registerEvent(cid, "ModifyAttr")
+	player:registerEvent(cid, "QuestsKill")
+	--player:registerEvent("Dota")
+	player:registerEvent(cid, "DeathReturn")
+	player:registerEvent("StealShop")
+	player:registerEvent("FirstWeapon")
+	player:registerEvent("Interest")
+	--player:registerEvent("Tutorial")
+	player:registerEvent("StartDie")
+	player:registerEvent("AOEProtect")
+	--player:registerEvent("Daily quests killing")
+	player:registerEvent("Friendly") -- guild tags friendly fire
+	player:registerEvent("TagCheck") -- Guild tags
+	--player:registerEvent("Tag") -- game of tag
+
 	player:registerEvent("PlayerDeath")
 	return true
 end

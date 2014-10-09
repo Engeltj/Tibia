@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Monopoly Bank" script="data/npc/scripts/banker.lua" walkinterval="2000" floorchange="0">
+<npc name="Monopoly Bank" script="banker.lua" walkinterval="2000" floorchange="0">
 	<health now="100" max="100"/>
 	<look type="132" head="97" body="21" legs="76" feet="19" addons="3" corpse="2212"/>
 	<parameters>
