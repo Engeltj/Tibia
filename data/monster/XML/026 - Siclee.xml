@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 26) Siclee" namedescription="a siclee" race="blood" experience="301" speed="260" manacost="390">
+	<health now="26" max="26"/>
+	<look type="431" head="114" body="112" legs="76" feet="0" addons="3" corpse="6080"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<script>
+		<event name="QuestsKill"/>
+	</script> 
+	<attacks>
+		<attack name="melee" interval="1000" min="-65" max="-130"/>
+		<attack name="physical" interval="2000" chance="30" range="7" min="-60" max="-120">
+			<attribute key="shootEffect" value="smallstone"/>
+		</attack>
+		<attack name="Death Spike" interval="1000" chance="20" min="-29" max="-40">
+		</attack>
+	</attacks>
+	<defenses armor="104" defense="52"/>
+	<elements>
+		<element energyPercent="20"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="40"/>
+	</elements>
+	<loot>
+		<item id="3976" countmax="10" chance="50000"/><!-- worm -->
+		<item id="2152" countmax="2" chance="6000"/><!-- plat coin -->
+		<item id="5885" countmax="1" chance="13000"/><!-- siclee urine -->
+		<item id="1987" chance="100000"><!-- bag -->
+			<inside>
+				<item id="1294" countmax="4" chance="20000"/><!-- small stone -->
+				<item id="2654" chance="4000"/><!-- cape level 18 -->
+				<item id="2667" countmax="2" chance="20000"/><!-- fish -->
+				<item id="2235" chance="10000"/><!-- moldy cheese -->
+			</inside>
+		</item>
+			<item id="2456" chance="790"/><!--bow-->
+	</loot>
+</monster>

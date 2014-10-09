@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 102) One Eyed Terror" namedescription="a one eyed terror" race="blood" experience="5051" speed="412" manacost="1530">
+	<health now="102" max="102"/>
+	<look type="" head="" body="" legs="" feet="" corpse=""/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-255" max="-510"/>
+		<attack name="physical" interval="2500" chance="16" range="4" min="-93" max="-239">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="40" length="8" spread="0" min="-85" max="-179">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="poison" interval="1000" chance="28" range="7" min="-105" max="-238">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="408" defense="204"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="0"/>
+		<element firePercent="0"/>
+		<element physicalPercent="0"/>
+		<element poisonPercent="0"/>
+	</elements>
+	<loot>
+		<!-- <item id="" chance="" /> -->
+	</loot>
+</monster>

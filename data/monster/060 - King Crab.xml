@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 60) King Crab" namedescription="a king crab" race="blood" experience="1712" speed="328" manacost="900">
+	<health now="60" max="60"/>
+	<look type="200" corpse="6075"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-150" max="-300"/>
+		<attack name="kingcrab" interval="1000" chance="20" min="-80" max="-140"/>
+		<attack name="poison" interval="2000" chance="23" target="1" radius="4" min="-85" max="-155">
+			<attribute key="areaEffect" value="poison"/>
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="240" defense="120">
+		<defense name="healing" interval="2000" chance="25" min="50" max="100">
+			<attribute key="areaEffect" value="blueshimmer"/>
+			</defense>
+	<elements>
+		<element icePercent="100"/>
+		<element earthPercent="100"/>
+		<element physicalPercent="12"/>
+		<element firePercent="-10"/>
+		<element energyPercent="5"/>
+	</elements>
+	<loot>
+				<item id="2667" chance="27000"/><!-- fish -->
+		<item id="2478" chance="7000"/><!-- brass legs -->
+		<item id="2464" chance="10000"/><!-- chain armor -->
+		<item id="2143" chance="1000"/><!-- white pearl -->
+	</loot>
+</monster>

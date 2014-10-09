@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 45) Crab" namedescription="a crab" race="blood" experience="947" speed="298" manacost="675">
+	<health now="45" max="45"/>
+	<look type="112" corpse="6039"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-112" max="-225"/>
+		<attack name="melee" interval="1000" chance="20" min="-112" max="-225"/>
+		<attack name="physical" interval="1500" chance="23" min="-50" max="-90" radius="5" >
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="180" defense="90"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="0"/>
+		<element firePercent="-25"/>
+		<element physicalPercent="5"/>
+		<element poisonPercent="0"/>
+	</elements>
+	<loot>
+		<item id="2667" chance="20000"/><!-- fish -->
+		<item id="11189" chance="16300"/> <!-- crab pincers -->
+	</loot>
+</monster>

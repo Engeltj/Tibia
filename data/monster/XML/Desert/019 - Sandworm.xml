@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 19) Sandworm" namedescription="a sandworm" race="blood" experience="154" speed="246" manacost="285">
+	<health now="19" max="19"/>
+	<look type="26" corpse="5967"/> --rotworm
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-47" max="-95"/>
+		<attack name="physical" interval="1000" chance="30" min="-50" max="-97" radius="3">
+<attribute key="areaEffect" value="yellowbubble"/>
+</attack>
+	</attacks>
+	<defenses armor="76" defense="38"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="0"/>
+		<element firePercent="0"/>
+		<element physicalPercent="0"/>
+	</elements>
+	<loot>
+		<item id="2671" countmax="2" chance="4000"/><!-- ham -->
+		<item id="2148" countmax="78" chance="6750"/><!-- gold coin -->
+		<item id="2152" countmax="1" chance="2750"/><!-- plat coin -->
+		<item id="2120" chance="7000"/>
+	</loot>
+</monster>

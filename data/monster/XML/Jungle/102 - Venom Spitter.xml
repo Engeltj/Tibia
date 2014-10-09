@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 102) Venom Spitter" namedescription="a venom spitter" race="venom" experience="5051" speed="412" manacost="1530">
+	<health now="102" max="102"/>
+	<look type="124" corpse="6050"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-255" max="-510"/>
+		<attack name="poison" interval="2000" chance="27" range="7" min="-200" max="-290">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+	</attack>
+		<attack name="poisonfield" interval="1000" chance="20" range="4">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+	</attacks>
+	<defenses armor="408" defense="204"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="0"/>
+		<element firePercent="0"/>
+		<element physicalPercent="0"/>
+		<element poisonPercent="0"/>
+	</elements>
+	<loot>
+		<!-- <item id="" chance="" /> -->
+	</loot>
+</monster>

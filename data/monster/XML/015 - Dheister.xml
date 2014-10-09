@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 15) Dheister" nameDescription="a dheister" race="blood" experience="92" speed="130" manacost="225">
+	<health now="15" max="15"/>
+	<look type="25" corpse="5969"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" chance="75" min="-32" max="-65"/>
+		<attack name="poison" interval="2000" chance="30" range="5" min="-12" max="-31">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="18" length="7" spread="0" min="0" max="-15">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="30">
+		<defense name="speed" interval="1000" chance="70" speedchange="20" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="20"/>
+		<element holyPercent="10"/>
+		<element icePercent="-10"/>
+		<element deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Burger! Burger!"/>
+		<voice sentence="Steak and cheese!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="40" chance="20500"/><!-- gold coin -->
+		<item id="2388" chance="3000" />
+		<item id="2379" chance="500" />
+		<item id="2654" chance="100" />
+		<item id="5878" chance="850"/><!-- minotaur leather -->
+		<item id="2456" chance="790"/><!--bow-->
+		<item id="2172" chance="250"/><!-- bronze amulet -->
+	</loot>
+</monster>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 64) Snap Turtle" namedescription="a snap turtle" race="blood" experience="1954" speed="336" manacost="960">
+	<health now="64" max="64"/>
+	<look type="197" corpse="6072"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-160" max="-320"/>
+		<attack name="physical" interval="2000" chance="17" length="6" spread="3" min="-90" max="-155">
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		<attack name="physical" interval="1500" chance="18" min="-90" max="-150" radius="3" >
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="256" defense="128"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="0"/>
+		<element firePercent="-25"/>
+		<element physicalPercent="25"/>
+		<element poisonPercent="0"/>
+	</elements>
+	<loot>
+		<!-- <item id="" chance="" /> -->
+	</loot>
+</monster>

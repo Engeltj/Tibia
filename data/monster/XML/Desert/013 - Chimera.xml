@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 13) Chimera" namedescription="a chimera" race="blood" experience="67" speed="234" manacost="195">
+	<health now="13" max="13"/>
+	<look type="41" corpse="5986"/> --lion
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-32" max="-65"/>
+		<attack name="fire" interval="4000" chance="12" range="7" radius="1" target="1" min="-30" max="-60">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="25" range="7" radius="1" target="1" min="-10" max="-40">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="52" defense="26"/>
+	<elements>
+		<element firePercent="100"/>
+		<element energyPercent="30"/>
+		<element earthPercent="25"/>
+		<element deathPercent="15"/>
+		<element physicalPercent="10"/>
+		<element icePercent="-20"/>
+		<element holyPercent="-10"/>
+	</elements>
+	<loot>
+		<item id="2666" countmax="3" chance="7000" /> --meat
+		<item id="2199" chance="700" /> --garlic necklace
+		<item id="2148" countmax="47" chance="7000" /> --gold pieces
+	</loot>
+</monster>

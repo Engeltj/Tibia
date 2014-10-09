@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 100) Stone Colossus" namedescription="a stone colossus" race="blood" experience="4852" speed="408" manacost="1500">
+	<health now="100" max="100"/>
+	<look type="67" corpse="6005"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-250" max="-500"/>
+		<attack name="melee" interval="10000" chance="5" min="-457" max="-615"/>
+		<attack name="stonecolossus" interval="1500" chance="20" min="-95" max="-210"/>
+		<attack name="stonecolossus_target" interval="1000" chance="20" range="6" target="1" min="-130" max="-260"/>
+	</attacks>
+	<defenses armor="400" defense="200"/>
+	<elements>
+		<element earthPercent="0"/>
+		<element icePercent="0"/>
+		<element energyPercent="-15"/>
+		<element firePercent="0"/>
+		<element physicalPercent="20"/>
+		<element poisonPercent="0"/>
+	</elements>
+	<loot>
+		<item id="2152" countmax="4" chance="7000"/><!-- plat coin -->
+		<item id="2152" countmax="2" chance="8000"/><!-- plat coin -->
+		<item id="2148" countmax="100" chance="14000"/><!-- gold coin -->
+		<item id="2148" countmax="99" chance="30000"/><!-- gold coin -->
+		<item id="2148" countmax="100" chance="12000"/><!-- gold coin -->
+		<item id="1294" countmax="4" chance="7000"/><!-- plat coin -->
+		<item id="2427" chance="700"/><!-- guardian halberd -->
+		<item id="2372" chance="700"/><!-- 2hand sword -->
+		<item id="2483" chance="600"/><!-- scale armor -->
+	</loot>
+</monster>

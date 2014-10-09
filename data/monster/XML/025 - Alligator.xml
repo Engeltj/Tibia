@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 25) Alligator" namedescription="a alligator" race="blood" experience="277" speed="258" manacost="375">
+	<health now="25" max="25"/>
+	<look type="119" corpse="6046"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-62" max="-125"/>
+	</attacks>
+	<defenses armor="100" defense="50"/>
+	<elements>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element energyPercent="-5"/>
+		<element firePercent="-10"/>
+		<element physicalPercent="-5"/>
+	</elements>
+	<loot>
+		<item id="2671" chance="40075" /><!-- ham -->
+		<item id="11196" chance="19800" /><!-- piece of crocodile leather -->
+	</loot>
+</monster>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="(Level 2) Wolf" nameDescription="a wolf" race="blood" experience="1" speed="104" manacost="30">
+	<health now="2" max="2"/>
+	<look type="27" corpse="5968"/>
+	<targetchange interval="2000" chance="0"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="500" min="-5" max="-10"/>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<elements>
+		<element holyPercent="10"/>
+		<element icePercent="-10"/>
+		<elemetn deathPercent="-5"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+		<voices interval="2000" chance="9">
+		<voice sentence="Yoooohhuuuu!"/>
+		<voice sentence="Grrrrrrr"/>
+	</voices>
+	<loot>
+		<item id="2666" chance="50000" /><!-- meat -->
+		<item id="5897" countmax="3" chance="1000" /><!-- wolf paw -->
+		<item id="9928" chance="3000" /> -- lvl1 leaf legs
+		
+	</loot>
+</monster>

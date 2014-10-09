@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<!--Outfits--> 
+	<monster name="Female Afflicted" file="XML/Outfits/F_Afflicted.xml"/>
+	<monster name="Female Assassin" file="XML/Outfits/F_Assassin.xml"/>
+	<monster name="Female Begger" file="XML/Outfits/F_Begger.xml"/>
+	<monster name="Female Brotherhood" file="XML/Outfits/F_Brotherhood.xml"/>
+	<monster name="Female Crystal Warlord" file="XML/Outfits/F_Crystal_Warlord.xml"/>
+	<monster name="Female Deepling" file="XML/Outfits/F_Deepling.xml"/>
+	<monster name="Female Demonhunter" file="XML/Outfits/F_Demonhunter.xml"/>
+	<monster name="Female Druid" file="XML/Outfits/F_Druid.xml"/>
+	<monster name="Female Elementalist" file="XML/Outfits/F_Elementalist.xml"/>
+	<monster name="Female Entrepreneur" file="XML/Outfits/F_Entrepreneur.xml"/>
+	<monster name="Female Hunter" file="XML/Outfits/F_Hunter.xml"/>
+	<monster name="Female Insectoid" file="XML/Outfits/F_Insectoid.xml"/>
+	<monster name="Female Jester" file="XML/Outfits/F_Jester.xml"/>
+	<monster name="Female Knight" file="XML/Outfits/F_Knight.xml"/>
+	<monster name="Female Mage" file="XML/Outfits/F_Mage.xml"/>
+	<monster name="Female Nightmare" file="XML/Outfits/F_Nightmare.xml"/>
+	<monster name="Female Noble" file="XML/Outfits/F_Noble.xml"/>
+	<monster name="Female Norse" file="XML/Outfits/F_Norse.xml"/>
+	<monster name="Female Oriental" file="XML/Outfits/F_Oriental.xml"/>
+	<monster name="Female Pirate" file="XML/Outfits/F_Pirate.xml"/>
+	<monster name="Female Soil Guardian" file="XML/Outfits/F_Soil_Guardian.xml"/>
+	<monster name="Female Summoner" file="XML/Outfits/F_Summoner.xml"/>
+	<monster name="Female Warmaster" file="XML/Outfits/F_Warmaster.xml"/>
+	<monster name="Female Warrior" file="XML/Outfits/F_Warrior.xml"/>
+	<monster name="Female Wayfarer" file="XML/Outfits/F_Wayfarer.xml"/>
+	<monster name="Female Wedding" file="XML/Outfits/F_Wedding.xml"/>
+	<monster name="Female Wizard" file="XML/Outfits/F_Wizard.xml"/>
+	<monster name="Female Yalaharian" file="XML/Outfits/F_Yalaharian.xml"/>
+	<monster name="hellspawn" file="XML/Outfits/hellspawn.xml"/>
+	<monster name="green frog" file="XML/Outfits/green frog.xml"/>
+	
+	
+	<monster name="Easy Tower" file="XML/Dota/Easy Tower.xml"/>
+	<monster name="Easy Ancient Tower" file="XML/Dota/Easy Ancient Tower.xml"/>
+	<monster name="Medium Tower" file="XML/Dota/Medium Tower.xml"/>
+	<monster name="Medium Ancient Tower" file="XML/Dota/Medium Ancient Tower.xml"/>
+	<monster name="Hard Tower" file="XML/Dota/Hard Tower.xml"/>
+	<monster name="Hard Ancient Tower" file="XML/Dota/Hard Ancient Tower.xml"/>
+	<monster name="(Tier 1) Lizard Warrior" file="XML/Dota/050 - Lizard Warrior.xml"/>
+	<monster name="(Tier 2) Lizard Warrior" file="XML/Dota/053 - Lizard Warrior.xml"/>
+	<monster name="(Tier 3) Lizard Warrior" file="XML/Dota/056 - Lizard Warrior.xml"/>
+	<monster name="(Tier 4) Lizard Warrior" file="XML/Dota/060 - Lizard Warrior.xml"/>
+	<monster name="(Tier 1) Lizard Guardian" file="XML/Dota/125 - Lizard Guardian.xml"/>
+	<monster name="(Tier 2) Lizard Guardian" file="XML/Dota/130 - Lizard Guardian.xml"/>
+	<monster name="(Tier 3) Lizard Guardian" file="XML/Dota/135 - Lizard Guardian.xml"/>
+	<monster name="(Tier 4) Lizard Guardian" file="XML/Dota/140 - Lizard Guardian.xml"/>
+	<monster name="(Tier 1) Lizard Legion" file="XML/Dota/250 - Lizard Legion.xml"/>
+	<monster name="(Tier 2) Lizard Legion" file="XML/Dota/257 - Lizard Legion.xml"/>
+	<monster name="(Tier 3) Lizard Legion" file="XML/Dota/264 - Lizard Legion.xml"/>
+	<monster name="(Tier 4) Lizard Legion" file="XML/Dota/275 - Lizard Legion.xml"/>
+	<monster name="(Tier 1) Lizard Magus" file="XML/Dota/050 - Lizard Magus.xml"/>
+	<monster name="(Tier 2) Lizard Magus" file="XML/Dota/053 - Lizard Magus.xml"/>
+	<monster name="(Tier 3) Lizard Magus" file="XML/Dota/056 - Lizard Magus.xml"/>
+	<monster name="(Tier 4) Lizard Magus" file="XML/Dota/060 - Lizard Magus.xml"/>
+	<monster name="(Tier 1) Lizard Necromancer" file="XML/Dota/125 - Lizard Necromancer.xml"/>
+	<monster name="(Tier 2) Lizard Necromancer" file="XML/Dota/130 - Lizard Necromancer.xml"/>
+	<monster name="(Tier 3) Lizard Necromancer" file="XML/Dota/135 - Lizard Necromancer.xml"/>
+	<monster name="(Tier 4) Lizard Necromancer" file="XML/Dota/140 - Lizard Necromancer.xml"/>
+	<monster name="(Tier 1) Lizard Warlock" file="XML/Dota/250 - Lizard Warlock.xml"/>
+	<monster name="(Tier 2) Lizard Warlock" file="XML/Dota/257 - Lizard Warlock.xml"/>
+	<monster name="(Tier 3) Lizard Warlock" file="XML/Dota/264 - Lizard Warlock.xml"/>
+	<monster name="(Tier 4) Lizard Warlock" file="XML/Dota/275 - Lizard Warlock.xml"/>
+	
+	
+	<monster name="Villager" file="XML/000 - Villager.xml"/>
+	<monster name="(Level 0) Trainer" file="XML/000 - Trainer.xml"/>
+	<monster name="(Level 0) Horse" file="XML/000 - Horse.xml"/>
+	<monster name="(Level 0) Deer" file="XML/000 - Deer.xml"/>
+	<monster name="(Level 0) Rabbit" file="XML/000 - Rabbit.xml"/>
+	<monster name="(Level 0) Sheep" file="XML/000 - Sheep.xml"/>
+	<monster name="(Level 0) Squirrel" file="XML/000 - Squirrel.xml"/>	
+	<monster name="(Level 0) Hare" file="XML/000 - Hare.xml"/>
+	<monster name="(Level 0) Pig" file="XML/000 - Pig.xml"/>		
+	<monster name="(Level 0) Experience" file="XML/000 - Experience.xml"/>
+	<monster name="(Level 1) Fruit Bat" file="XML/001 - Fruit Bat.xml"/>
+	<monster name="(Level 1) Sigmodon" file="XML/001 - Sigmodon.xml"/>
+	<monster name="(Level 2) Cane Toad" file="XML/002 - Cane Toad.xml"/>
+	<monster name="(Level 2) Wolf" file="XML/002 - Wolf.xml"/>
+	<monster name="(Level 3) Sigmodon" file="XML/003 - Sigmodon.xml"/>
+	<monster name="(Level 4) Skeleton" file="XML/Undead/004 - Skeleton.xml"/>
+	<monster name="(Level 4) Zombie" file="XML/Undead/004 - Zombie.xml"/>
+	<monster name="(Level 5) Temex" file="XML/005 - Temex.xml"/>
+	<monster name="(Level 6) Wolf" file="XML/006 - Wolf.xml"/>
+	<monster name="(Level 6) Zombie" file="XML/Undead/006 - Zombie.xml"/>
+	<monster name="(Level 8) Gnoll" file="XML/008 - Gnoll.xml"/>
+	<monster name="(Level 10) Zex" file="XML/010 - Zex.xml"/>
+	<monster name="(Level 11) Field Bug" file="XML/011 - Field Bug.xml"/>	
+	<monster name="(Level 11) Swamp Snake" file="XML/011 - Swamp Snake.xml"/>
+	<monster name="(Level 12) Wild Boar" file="XML/012 - Wild Boar.xml"/>
+	<monster name="(Level 13) Direwolf" file="XML/013 - Direwolf.xml"/>
+	<monster name="(Level 13) Field Bug" file="XML/013 - Field Bug.xml"/>
+	<monster name="(Level 13) Wild Boar" file="XML/013 - Wild Boar.xml"/>
+	<monster name="(Level 13) Chimera" file="XML/Desert/013 - Chimera.xml"/>
+	<monster name="(Level 14) Swamp Snake" file="XML/014 - Swamp Snake.xml"/>
+	<monster name="(Level 14) Spider" file="XML/014 - Spider.xml"/>	
+	<monster name="(Level 15) Bear" file="XML/015 - Bear.xml"/>
+	<monster name="(Level 15) Direwolf" file="XML/015 - Direwolf.xml"/>	
+	<monster name="(Level 15) Dheister" file="XML/015 - Dheister.xml"/>
+	<monster name="(Level 16) Scorpion" file="XML/Desert/016 - Scorpion.xml"/>
+	<monster name="(Level 16) Spider" file="XML/016 - Spider.xml"/>	
+	<monster name="(Level 17) Bear" file="XML/017 - Bear.xml"/>	
+	<monster name="(Level 17) Skeleton" file="XML/Undead/017 - Skeleton.xml"/>
+	<monster name="(Level 17) Siclee" file="XML/017 - Siclee.xml"/>
+	<monster name="(Level 18) Elization" file="XML/018 - Elization.xml"/>
+	<monster name="(Level 18) Terremoto" file="XML/018 - Terremoto.xml"/>
+	<monster name="(Level 18) Diseaser Glob" file="XML/Sewers/018 - Diseaser Glob.xml"/>
+	<monster name="(Level 19) Sandworm" file="XML/Desert/019 - Sandworm.xml"/> 
+	<monster name="(Level 19) Enraged Boar" file="XML/019 - Enraged Boar.xml"/>
+	<monster name="(Level 19) Stinger" file="XML/019 - Stinger.xml"/>	
+	<monster name="(Level 20) Stinger" file="XML/020 - Stinger.xml"/>		
+	<monster name="(Level 20) Dheister" file="XML/020 - Dheister.xml"/>
+	<monster name="(Level 20) Filth Globule" file="XML/Sewers/020 - Filth Globule.xml"/>
+	<monster name="(Level 20) Kheper" file="XML/Desert/020 - Kheper.xml"/>
+	<monster name="(Level 20) Skeleton" file="XML/Undead/020 - Skeleton.xml"/>
+	<monster name="(Level 20) Siclee" file="XML/020 - Siclee.xml"/>
+	<monster name="(Level 21) Enraged Bear" file="XML/021 - Enraged Bear.xml"/>		
+	<monster name="(Level 22) Tainted Slime" file="XML/Sewers/022 - Tainted Slime.xml"/>
+	<monster name="(Level 22) Stinger" file="XML/022 - Stinger.xml"/>			
+	<monster name="(Level 23) Ace" file="XML/023 - Ace.xml"/>
+	<monster name="(Level 23) Enraged Direwolf" file="XML/023 - Enraged Direwolf.xml"/>			
+	<monster name="(Level 23) Dipleurula" file="XML/Desert/023 - Dipleurula.xml"/>
+	<monster name="(Level 23) Hornet" file="XML/023 - Hornet.xml"/>
+	<monster name="(Level 23) Siclee" file="XML/023 - Siclee.xml"/>
+	<monster name="(Level 24) Lead Waste" file="XML/Sewers/024 - Lead Waste.xml"/>
+	<monster name="(Level 24) Sandworm" file="XML/Desert/024 - Sandworm.xml"/>
+	<monster name="(Level 24) Skeleton" file="XML/Undead/024 - Skeleton.xml"/>
+	<monster name="(Level 25) Alligator" file="XML/025 - Alligator.xml"/>
+	<monster name="(Level 25) Comine" file="XML/025 - Comine.xml"/>
+	<monster name="(Level 26) Kheper" file="XML/Desert/026 - Kheper.xml"/>
+	<monster name="(Level 26) Outlaw" file="XML/026 - Outlaw.xml"/>
+	<monster name="(Level 26) Pex" file="XML/026 - Pex.xml"/>
+	<monster name="(Level 26) Siclee" file="XML/026 - Siclee.xml"/>
+	<monster name="(Level 27) Dipleurula" file="XML/Desert/027 - Dipleurula.xml"/>
+	<monster name="(Level 28) Chimera" file="XML/Desert/028 - Chimera.xml"/>
+	<monster name="(Level 28) Siclee" file="XML/028 - Siclee.xml"/>
+	<monster name="(Level 30) Kheper" file="XML/Desert/030 - Kheper.xml"/>
+	<monster name="(Level 30) Nelomom" file="XML/030 - Nelomom.xml"/>
+	<monster name="(Level 30) Vyln" file="XML/030 - Vyln.xml"/>
+	<monster name="(Level 32) Wretched Hound" file="XML/Undead/032 - Wretched Hound.xml"/>
+	<monster name="(Level 33) Vyln" file="XML/033 - Vyln.xml"/>
+	<monster name="(Level 34) Tortured Soul" file="XML/Undead/034 - Tortured Soul.xml"/>
+	<monster name="(Level 35) Vyln Berserker" file="XML/035 - Vyln Berserker.xml"/>
+	<monster name="(Level 35) Undying Worker" file="XML/Undead/035 - Undying Worker.xml"/>
+	<monster name="(Level 35) Sokovor" file="XML/035 - Sokovor.xml"/>
+	<monster name="(Level 35) Rogue Guard" file="XML/Humans/035 - Rogue Guard.xml"/>
+	<monster name="(Level 35) Cerberus" file="XML/035 - Cerberus.xml"/>
+	<monster name="(Level 36) Vyln Elementalist" file="XML/036 - Vyln Elementalist.xml"/>
+	<monster name="(Level 36) Tolomaq" file="XML/Hell/036 - Tolomaq.xml"/>
+	<monster name="(Level 36) Lacerator" file="XML/Demons/036 - Lacerator.xml"/>
+	<monster name="(Level 37) Mine Raider" file="XML/Humans/037 - Mine Raider.xml"/>
+	<monster name="(Level 37) Rogue Guard" file="XML/Humans/037 - Rogue Guard.xml"/>
+	<monster name="(Level 39) Mine Raider" file="XML/Humans/039 - Mine Raider.xml"/>
+	<monster name="(Level 40) Huge Waste Glob" file="XML/Sewers/040 - Huge Waste Glob.xml"/>
+	<monster name="(Level 40) Centipede" file="XML/040 - Centipede.xml"/>
+	<monster name="(Level 42) Tolomaq" file="XML/Hell/042 - Tolomaq.xml"/>
+	<monster name="(Level 40) Horned Grub" file="XML/040 - Horned Grub.xml"/>
+	<monster name="(Level 42) Horned Grub" file="XML/042 - Horned Grub.xml"/>
+	<monster name="(Level 42) Infested Citizen" file="XML/Sewers/042 - Infested Citizen.xml"/>
+	<monster name="(Level 43) Crypt Beast" file="XML/Desert/043 - Crypt Beast.xml"/>
+	<monster name="(Level 44) Infested Worker" file="XML/Sewers/044 - Infested Worker.xml"/>
+	<monster name="(Level 45) Spiderling" file="XML/Jungle/045 - Spiderling.xml"/>
+	<monster name="(Level 45) Rogue Commander" file="XML/Humans/045 - Rogue Commander.xml"/>
+	<monster name="(Level 45) Crab" file="XML/045 - Crab.xml"/>
+	<monster name="(Level 46) Infestor" file="XML/Sewers/046 - Infestor.xml"/>
+	<monster name="(Level 46) Stinger" file="XML/046 - Stinger.xml"/>		
+	<monster name="(Level 47) Pollywog" file="XML/047 - Pollywog.xml"/>	
+	<monster name="(Level 48) Tolomaq" file="XML/Fire/048 - Tolomaq.xml"/>
+	<monster name="(Level 48) Crab" file="XML/048 - Crab.xml"/>
+	<monster name="(Level 49) Pollywog" file="XML/049 - Pollywog.xml"/>
+	<monster name="(Level 50) Alligator" file="XML/050 - Alligator.xml"/>
+	<monster name="(Level 50) Snap Turtle" file="XML/050 - Snap Turtle.xml"/>
+	<monster name="(Level 50) Blazer" file="XML/Fire/050 - Blazer.xml"/>
+	<monster name="(Level 51) Blazer" file="XML/Fire/051 - Blazer.xml"/>
+	<monster name="(Level 50) Crypt Beast" file="XML/Desert/050 - Crypt Beast.xml"/>
+	<monster name="(Level 50) Halkog" file="XML/050 - Halkog.xml"/>
+	<monster name="(Level 52) Alligator" file="XML/052 - Alligator.xml"/>
+	<monster name="(Level 54) One Eyed Terror" file="XML/054 - One Eyed Terror.xml"/>
+	<monster name="(Level 56) One Eyed Terror" file="XML/056 - One Eyed Terror.xml"/>	
+	<monster name="(Level 55) Ancient Draco" file="XML/Fire/055 - Ancient Draco.xml"/>
+	<monster name="(Level 56) Pyriac Beastling" file="XML/Fire/056 - Pyriac Beastling.xml"/>
+	<monster name="(Level 57) Pyriac Beastling" file="XML/Fire/057 - Pyriac Beastling.xml"/>
+	<monster name="(Level 57) Rezhler" file="XML/057 - Rezhler.xml"/>
+	<monster name="(Level 58) Tolomaq" file="XML/Hell/058 - Tolomaq.xml"/>
+	<monster name="(Level 59) Rezhler" file="XML/059 - Rezhler.xml"/>
+	<monster name="(Level 60) Linamens" file="XML/060 - Linamens.xml"/>
+	<monster name="(Level 60) Ryhally Scout" file="XML/Humans/060 - Ryhally Scout.xml"/>			
+	<monster name="(Level 60) Pyriac"	file="XML/Fire/060 - Pyriac.xml"/>
+	<monster name="(Level 62) Pyriac"	file="XML/Fire/062 - Pyriac.xml"/>
+	<monster name="(Level 62) Pyro Blazer"	file="XML/Fire/062 - Pyro Blazer.xml"/>
+	<monster name="(Level 62) Ryhally Warrior" file="XML/Humans/062 - Ryhally Warrior.xml"/>
+	<monster name="(Level 63) Mummy" file="XML/Desert/063 - Mummy.xml"/>
+	<monster name="(Level 63) Ryhally Warrior" file="XML/Humans/063 - Ryhally Warrior.xml"/>
+	<monster name="(Level 64) Ryhally Curser" file="XML/Humans/064 - Ryhally Curser.xml"/>
+	<monster name="(Level 65) Ryhally Chief" file="XML/Humans/065 - Ryhally Chief.xml"/>	
+	<monster name="(Level 65) Ancient Pyriac"	file="XML/Fire/065 - Ancient Pyriac.xml"/>
+	<monster name="(Level 67) Ancient Pyriac"	file="XML/Fire/067 - Ancient Pyriac.xml"/>
+	<monster name="(Level 67) Mummy" file="XML/Desert/067 - Mummy.xml"/>
+	<monster name="(Level 70) Tezhler" file="XML/070 - Tezhler.xml"/>
+	<monster name="(Level 70) Eaciden" file="XML/070 - Eaciden.xml"/>
+	<monster name="(Level 70) Desert Drake" file="XML/Desert/070 - Desert Drake.xml"/>
+	<monster name="(Level 72) Desert Drake" file="XML/Desert/072 - Desert Drake.xml"/>
+	<monster name="(Level 72) Tezhler" file="XML/072 - Tezhler.xml"/>
+	<monster name="(Level 72) Mummy" file="XML/Desert/072 - Mummy.xml"/>
+	<monster name="(Level 73) Desert Drake" file="XML/Desert/073 - Desert Drake.xml"/>
+	<monster name="(Level 73) Risen" file="XML/Undead/073 - Risen.xml"/>
+	<monster name="(Level 75) Cephalotus" file="XML/075 - Cephalotus.xml"/>
+	<monster name="(Level 75) Risen" file="XML/Undead/075 - Risen.xml"/>
+	<monster name="(Level 75) Vorld" file="XML/075 - Vorld.xml"/>
+	<monster name="(Level 75) Burrower" file="XML/Desert/075 - Burrower.xml"/>
+	<monster name="(Level 77) Risen Warrior" file="XML/Undead/077 - Risen Warrior.xml"/>
+	<monster name="(Level 77) Genie" file="XML/Desert/077 - Genie.xml"/>
+	<monster name="(Level 78) Risen" file="XML/Undead/078 - Risen.xml"/>
+	<monster name="(Level 79) Apprentice of Ishum" file="XML/Fire/079 - Apprentice of Ishum.xml"/>
+	<monster name="(Level 80) Apprentice of Ishum" file="XML/Fire/080 - Apprentice of Ishum.xml"/>
+	<monster name="(Level 80) Grave Dweller" file="XML/Undead/080 - Grave Dweller.xml"/>
+	<monster name="(Level 80) Sprareing" file="XML/080 - Sprareing.xml"/>
+	<monster name="(Level 80) Cryzthler" file="XML/080 - Cryzthler.xml"/>	
+	<monster name="(Level 80) Stone Beater" file="XML/080 - Stone Beater.xml"/>	
+	<monster name="(Level 80) Genie" file="XML/Desert/080 - Genie.xml"/>
+	<monster name="(Level 81) Risen Warrior" file="XML/Undead/081 - Risen Warrior.xml"/>
+	<monster name="(Level 82) Stone Beater" file="XML/082 - Stone Beater.xml"/>	
+	<monster name="(Level 83) Apprentice of Ishum" file="XML/Fire/083 - Apprentice of Ishum.xml"/>	
+	<monster name="(Level 83) Grimlon" file="XML/Undead/083 - Grimlon.xml"/>
+	<monster name="(Level 83) Mine Keeper" file="XML/083 - Mine Keeper.xml"/>	
+	<monster name="(Level 85) Nangen" file="XML/085 - Nangen.xml"/>
+	<monster name="(Level 85) Ishum Cultist" file="XML/Fire/085 - Ishum Cultist.xml"/>
+	<monster name="(Level 85) Stone Beater" file="XML/085 - Stone Beater.xml"/>
+	<monster name="(Level 86) Grimlon" file="XML/Undead/086 - Grimlon.xml"/>
+	<monster name="(Level 86) Mine Keeper" file="XML/086 - Mine Keeper.xml"/>	
+	<monster name="(Level 87) Ishum Cultist" file="XML/Fire/087 - Ishum Cultist.xml"/>
+	<monster name="(Level 87) Mine Warden" file="XML/087 - Mine Warden.xml"/>	
+	<monster name="(Level 87) Grave Dweller" file="XML/Undead/087 - Grave Dweller.xml"/>
+	<monster name="(Level 88) Dark Priest" file="XML/Humans/088 - Dark Priest.xml"/>
+	<monster name="(Level 90) Dietzt" file="XML/090 - Dietzt.xml"/>
+	<monster name="(Level 90) Mine Warden" file="XML/090 - Mine Warden.xml"/>	
+	<monster name="(Level 95) Rademper" file="XML/095 - Rademper.xml"/>
+	<monster name="(Level 98) Arachnidae" file="XML/Jungle/098 - Arachnidae.xml"/>
+	<monster name="(Level 100) Zwerwart" file="XML/100 - Zwerwart.xml"/>
+	<monster name="(Level 102) Venom Spitter" file="XML/Jungle/102 - Venom Spitter.xml"/>
+	<monster name="(Level 107) Venom Spitter" file="XML/Jungle/107 - Venom Spitter.xml"/>
+	<monster name="(Level 110) Arachnidae" file="XML/Jungle/110 - Arachnidae.xml"/>
+	<monster name="(Level 120) Kobold" file="XML/Jungle/120 - Kobold.xml"/>
+	<monster name="(Level 121) Kobold" file="XML/Jungle/121 - Kobold.xml"/>
+	<monster name="(Level 125) Kobold Trickster" file="XML/Jungle/125 - Kobold Trickster.xml"/>
+	<monster name="(Level 125) Kobold Trickster Illusion" file="XML/Jungle/125 - Kobold Trickster Illusion.xml"/>
+	<monster name="(Level 127) Kobold Trickster" file="XML/Jungle/127 - Kobold Trickster.xml"/>
+	<monster name="(Level 127) Kobold Trickster Illusion" file="XML/Jungle/127 - Kobold Trickster Illusion.xml"/>
+		
+	<!-- <monster name="(Level ) " file="XML/.xml"/> -->
+</monsters>
