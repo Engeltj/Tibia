@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <globalevents>
+	<!-- CUSTOM -->
+	<globalevent name="start" type="startup" event="script" value="custom/start.lua"/>
+	<globalevent name="shop" type="startup" event="script" value="custom/shop.lua"/>
+	<globalevent name="treasure" type="startup" event="script" value="custom/treasure_chests.lua"/>
+
+
 	<globalevent type="startup" name="ServerStartup" script="startup.lua"/>
 	<globalevent type="record" name="PlayerRecord" script="record.lua"/>
 	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />

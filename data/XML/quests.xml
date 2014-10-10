@@ -1,14 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <quests>
-	<quest name="Example Quest I" startstorageid="1001" startstoragevalue="1">
-		<mission name="Example Mission 1" storageid="1001" startvalue="1" endvalue="3">
-			<missionstate id="1" description="Example description 1"/>
-			<missionstate id="2" description="Example description 2"/>
-			<missionstate id="3" description="Example description 3"/>
+	<!--<quest name="Example Quest I" startstorageid="30031" startstoragevalue="1">
+		<mission name="The head of Kiper" storageid="1001" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Kill Kiper!"/>
+			<missionstate id="2" description="Give his head to Talaturen!"/>
+			<missionstate id="3" description="Take the medal you got from Talaturen to Ruly!"/>
 		</mission>
-		<mission name="Example Mission 2" storageid="1001" startvalue="4" endvalue="5">
-			<missionstate id="4" description="Example description 1"/>
-			<missionstate id="5" description="Example description 2"/>
+		<mission name="Ruly's Revenge" storageid="30031" startvalue="4" endvalue="6">
+			<missionstate id="4" description="You received a document with instructions from Ruly, follow them."/>
+			<missionstate id="5" description="Go back to Ruly and tell him that you followed his instructions to the end."/>
+			<missionstate id="6" description="You got a reward from Ruly, he was very thankful with that you helped him to take his revenge."/>
+		</mission>
+	</quest>-->
+	
+	<quest name="Bretain's Horses" startstorageid="15900" startstoragevalue="1">
+		<mission name="Kill Sicklees" storageid="15901" startvalue="0" endvalue="2">
+			<missionstate id="0" description="The Sicklees down in the sewers keep comming up at night and stealing my horses! Kill 10 Sicklees to stop this madness."/>
+			<missionstate id="1" description="Looks like the horses are safe. Return to Bretain for your reward."/>
+			<missionstate id="2" description="Bretain rewarded you one of his horses."/>
+		</mission>
+	</quest>
+	
+	<quest name="First Promotion" startstorageid="15903" startstoragevalue="0">
+		<mission name="Obtain" storageid="15903" startvalue="0" endvalue="2">
+			<missionstate id="0" description="Obtain level 20 for promotion, you must have 5k gold saved."/>
+			<missionstate id="1" description="You are ready to obtain your first promotion! Speak to the promotion NPC."/>
+			<missionstate id="2" description="Congratulations! You have been promoted."/>
+		</mission>
+	</quest>
+
+	<quest name="Factions" startstorageid="15904" startstoragevalue="1">
+		<mission name="Tier I" storageid="15904" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Blah blah unfinished."/>
+			<missionstate id="2" description="Return to Hugo."/>
+			<missionstate id="3" description="You have this tier. Type 'mutare uni' to morph."/>
+		</mission>
+		<mission name="Tier II" storageid="15905" startvalue="4" endvalue="6">
+			<missionstate id="4" description="Blah blah unfinished."/>
+			<missionstate id="5" description="Blah blah unfinished."/>
+			<missionstate id="6" description="You have this tier. Type 'mutare alta' to morph."/>
+		</mission>
+		<mission name="Tier III" storageid="15906" startvalue="7" endvalue="9">
+			<missionstate id="7" description="Blah blah unfinished."/>
+			<missionstate id="8" description="Blah blah unfinished."/>
+			<missionstate id="9" description="You have this tier. Type 'mutare kunda' to morph."/>
+		</mission>
+	</quest>
+	
+	<quest name="Gravedigger" startstorageid="15907" startstoragevalue="1">
+		<mission name="Flowers" storageid="15907" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Place flowers at the grave of the following people: Drake Barbus, Ben Jengel, and Chris Lenkinux."/>
+			<missionstate id="2" description="Perfect, flowers are all set. Return to the gravedigger."/>
+			<missionstate id="3" description="Gravedigger is very pleased, and has rewarded you."/>
+		</mission>
+		<mission name="Mission2 (reserved)" storageid="15908" startvalue="1" endvalue="2">
+			<missionstate id="1" description=""/>
+		</mission>
+		<mission name="Mission3 (reserved)" storageid="15909" startvalue="1" endvalue="2">
+			<missionstate id="1" description=""/>
+		</mission>
+	</quest>
+	<quest name="Farmer" startstorageid="15910" startstoragevalue="1">
+		<mission name="Vylns" storageid="15910" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Vylns are eating the crops and cattle, go north east to the hole where they come from! Kill off 50 Vylns"/>
+			<missionstate id="2" description="Vylns have learnt their lesson, and will not mess with the farmer anymore. Return to the farmer for reward."/>
+			<missionstate id="3" description="Farmer is very pleased, and has rewarded you."/>
+		</mission>
+		<mission name="Commander" storageid="15911" startvalue="1" endvalue="3">
+			<missionstate id="1" description="It looks like the Vyln problem is not quite over, a Vyln commander known as a Beserker is present on the small hill right south of the farm. Kill it!"/>
+			<missionstate id="2" description="The commander was taken care of, return to the farmer for reward."/>
+			<missionstate id="3" description="Farmer is very pleased, and has rewarded you."/>
+		</mission>
+		<mission name="Captured Villagers" storageid="15912" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Go to the camp over the bridge located directly south, and rescue the villagers in chains!"/>
+			<missionstate id="2" description="You have rescued enough villagers, bring them home safe. Speak with the farmer."/>
+			<missionstate id="3" description="Farmer is very pleased, and has rewarded you."/>
+		</mission>
+	</quest>
+	
+	<quest name="Hailbrook" startstorageid="15913" startstoragevalue="1">
+		<mission name="Sigmodon Infestation" storageid="15913" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Kill 5 Sigmodons, return to Aldo when you have completed this task."/>
+			<missionstate id="2" description="Aldo has rewarded you gracefully."/>
+		</mission>
+		<mission name="Urine Time" storageid="15914" startvalue="1" endvalue="3">
+			<missionstate id="1" description="Siclees can be found west of the city, underground, and south of the Dheisters. Bring back 15 bottles of urine!"/>
+			<missionstate id="2" description=""/>
+			<missionstate id="3" description=""/>
+		</mission>
+		<mission name="Silver Wonders" storageid="15915" startvalue="1" endvalue="3">
+			<missionstate id="1" description=""/>
+			<missionstate id="2" description=""/>
+			<missionstate id="3" description=""/>
+		</mission>
+		<mission name="Poisonous Arrow Crafting" storageid="15916" startvalue="1" endvalue="3">
+			<missionstate id="1" description=""/>
+			<missionstate id="2" description=""/>
+			<missionstate id="3" description=""/>
+		</mission>
+	</quest>
+	
+	<quest name="Miner" startstorageid="15917" startstoragevalue="1">
+		<mission name="Electric Crafting" storageid="15917" startvalue="1" endvalue="2">
+			<missionstate id="1" description="Travel to the deepest and furthest point in the mines, you will come across a globe. Next to the globe is a electric crafting bench, use this bench to craft the items I require!"/>
+			<missionstate id="2" description="Jim thanked and rewarded you graciously"/>
+		</mission>
+		<mission name="Unknown" storageid="15918" startvalue="1" endvalue="3">
+			<missionstate id="1" description=""/>
+			<missionstate id="2" description=""/>
+			<missionstate id="3" description=""/>
+		</mission>
+		<mission name="Unknown" storageid="15919" startvalue="1" endvalue="3">
+			<missionstate id="1" description=""/>
+			<missionstate id="2" description=""/>
+			<missionstate id="3" description=""/>
 		</mission>
 	</quest>
 </quests>

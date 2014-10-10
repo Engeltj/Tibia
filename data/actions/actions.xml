@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+	<!-- Custom Scripts -->
+	<action actionid="100" script="custom/simple_mech/elevator.lua"/>
+	<action actionid="101" script="custom/simple_mech/catapult_port.lua"/>
+	<!--<action itemid="8919" event="script" value="custom/test.lua"/>-->
+	<action itemid="8209" event="script" value="custom/test2.lua"/>
+	<action itemid="2361" event="script" value="custom/simple_mech/essence.lua"/>
+	
+	<action actionid="2016" event="script" value="custom/quests/treasure_chests.lua"/>
+	<action actionid="2032" event="script" value="custom/quests/coloured_stones.lua"/>
+	<action actionid="2036" event="script" value="custom/quests/quests.lua"/>
+	<action actionid="2037" script="custom/potion_buy.lua"/>
+	<action actionid="2041" script="custom/tag.lua"/>
+	<action actionid="2042" script="custom/upgrade_tokens.lua"/>
+	<action actionid="2043" script="custom/quests/capturedVillagers.lua"/>
+	<action actionid="2044" script="custom/simple_mech/hookrope.lua"/>
+	<action itemid="13220" script="custom/super_food.lua"/>
+	<action itemid="2235" script="custom/simple_mech/food_moldy.lua"/>
+	<action itemid="2227" script="custom/simple_mech/food_moldy.lua"/>
+	<action itemid="2220" script="custom/simple_mech/food_moldy.lua"/>
+	<action itemid="4172-4176" script="custom/simple_mech/food_moldy.lua"/>
+	
+	<action actionid="3000" script="custom/simple_mech/door_autoclose.lua"/>
+	
+	<action itemid="13293" event="script" value="custom/taming.lua"/>
+	
+	<action itemid="2297" event="script" value="custom/runes/upgrade_rune.lua"/>
+	<action itemid="2348" script="custom/runes/temple_stone.lua"/>
+	<!-- <action itemid="2299" script="custom/haste.lua"/>-->
+	<action itemid="2280" script="custom/runes/manarune.lua"/>
+	<action itemid="2267" allowfaruse="yes" script="custom/runes/blinkrune.lua"/>
+	<action itemid="2306" script="custom/runes/sell_rune.lua"/>
+	<action itemid="2272" script="custom/runes/capture_rune.lua"/>
+	<action actionid="2033" event="script" value="custom/bomb_minigame.lua"/>
+	<action actionid="2034" event="script" value="custom/quests/quest_oil.lua"/>
+	<action actionid="2035" event="script" value="custom/junglewatersecret.lua"/>
+	<action actionid="2039" event="script" value="custom/quests/firebug_quest.lua"/>
+	<action actionid="2045" event="script" value="custom/quests/walk_of_leagues.lua"/>
+	<action actionid="2046;2047" event="script" value="custom/quests/electric_mines.lua"/>
+	
+	<action actionid="2040" event="script" value="custom/mining.lua"/>
+	
+	<!--<action itemid="2553" script="custom/mining.lua"/>
+	<action itemid="4874" script="custom/mining.lua"/>
+	<action itemid="4856" script="custom/mining.lua"/>
+	<action itemid="11421" script="custom/mining.lua"/>
+	<action actionid="2019" script="custom/mining.lua"/>-->
+	
+	<action actionid="2011" script="custom/quests/dota.lua"/>
+	<action actionid="2012" script="custom/quests/dota.lua"/>
+	<action actionid="2013" script="custom/quests/dota.lua"/>
+	<action actionid="2014" script="custom/quests/dota.lua"/> <!--For future-->
+	
+	<action actionid="2002" script="custom/simple_mech/training_rooms.lua"/>
+	<action actionid="2017" script="custom/simple_mech/graveyard_coffins.lua"/>
+
+
+	
 	<!-- Quests -->
 	<action itemid="1740" script="quests/quests.lua"/>
 	<action fromid="1747" toid="1749" script="quests/quests.lua"/>

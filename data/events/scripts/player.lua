@@ -87,6 +87,34 @@ function Player:onLookInShop(itemType, count)
 end
 
 function Player:onMoveItem(item, count, fromPosition, toPosition)
+	if item.actionid == 2038 then
+		if (self:getStorageValue(102) == -1) then
+			self:addItem(item.itemid, 1)
+			if item.itemid == 2403 then
+				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with a sword!")
+				self:setStorageValue(102, 1)
+			elseif item.itemid == 2382 then
+				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with a club!")
+				self:setStorageValue(102, 2)
+			elseif item.itemid == 2388 then
+				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with an axe!")
+				self:setStorageValue(102, 3)
+			end
+		else
+			if item.itemid == 2403 then
+				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to sword!")
+				self:setStorageValue(102, 1)
+			elseif item.itemid == 2382 then
+				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to club!")
+				self:setStorageValue(102, 2)
+			elseif item.itemid == 2388 then
+				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to axe!")
+				self:setStorageValue(102, 3)
+			end
+		end
+		-- doSendMagicEffect(getPlayerPosition(cid), 12)
+		return false
+	end
 	return true
 end
 
