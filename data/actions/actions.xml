@@ -3,13 +3,13 @@
 	<!-- Custom Scripts -->
 	<action actionid="100" script="custom/simple_mech/elevator.lua"/>
 	<action actionid="101" script="custom/simple_mech/catapult_port.lua"/>
-	<!--<action itemid="8919" event="script" value="custom/test.lua"/>-->
-	<action itemid="8209" event="script" value="custom/test2.lua"/>
-	<action itemid="2361" event="script" value="custom/simple_mech/essence.lua"/>
+	<!--<action itemid="8919" script="custom/test.lua"/>-->
+	<action itemid="2650" script="test.lua"/>
+	<action itemid="2361" script="custom/simple_mech/essence.lua"/>
 	
-	<action actionid="2016" event="script" value="custom/quests/treasure_chests.lua"/>
-	<action actionid="2032" event="script" value="custom/quests/coloured_stones.lua"/>
-	<action actionid="2036" event="script" value="custom/quests/quests.lua"/>
+	<action actionid="2016" script="custom/quests/treasure_chests.lua"/>
+	<action actionid="2032" script="custom/quests/coloured_stones.lua"/>
+	<action actionid="2036" script="custom/quests/quests.lua"/>
 	<action actionid="2037" script="custom/potion_buy.lua"/>
 	<action actionid="2041" script="custom/tag.lua"/>
 	<action actionid="2042" script="custom/upgrade_tokens.lua"/>
@@ -23,23 +23,23 @@
 	
 	<action actionid="3000" script="custom/simple_mech/door_autoclose.lua"/>
 	
-	<action itemid="13293" event="script" value="custom/taming.lua"/>
+	<action itemid="13293" script="custom/taming.lua"/>
 	
-	<action itemid="2297" event="script" value="custom/runes/upgrade_rune.lua"/>
+	<action itemid="2297" script="custom/runes/upgrade_rune.lua"/>
 	<action itemid="2348" script="custom/runes/temple_stone.lua"/>
 	<!-- <action itemid="2299" script="custom/haste.lua"/>-->
 	<action itemid="2280" script="custom/runes/manarune.lua"/>
 	<action itemid="2267" allowfaruse="yes" script="custom/runes/blinkrune.lua"/>
 	<action itemid="2306" script="custom/runes/sell_rune.lua"/>
 	<action itemid="2272" script="custom/runes/capture_rune.lua"/>
-	<action actionid="2033" event="script" value="custom/bomb_minigame.lua"/>
-	<action actionid="2034" event="script" value="custom/quests/quest_oil.lua"/>
-	<action actionid="2035" event="script" value="custom/junglewatersecret.lua"/>
-	<action actionid="2039" event="script" value="custom/quests/firebug_quest.lua"/>
-	<action actionid="2045" event="script" value="custom/quests/walk_of_leagues.lua"/>
-	<action actionid="2046;2047" event="script" value="custom/quests/electric_mines.lua"/>
+	<action actionid="2033" script="custom/bomb_minigame.lua"/>
+	<action actionid="2034" script="custom/quests/quest_oil.lua"/>
+	<action actionid="2035" script="custom/junglewatersecret.lua"/>
+	<action actionid="2039" script="custom/quests/firebug_quest.lua"/>
+	<action actionid="2045" script="custom/quests/walk_of_leagues.lua"/>
+	<action actionid="2046;2047" script="custom/quests/electric_mines.lua"/>
 	
-	<action actionid="2040" event="script" value="custom/mining.lua"/>
+	<action actionid="2040" script="custom/mining.lua"/>
 	
 	<!--<action itemid="2553" script="custom/mining.lua"/>
 	<action itemid="4874" script="custom/mining.lua"/>

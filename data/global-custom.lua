@@ -212,7 +212,7 @@ end
 
 -- Player must be offline for this to actually work
 function doPlayerChangeName(current, new)
-	if (not getPlayerByNameWildcard(current))
+	if (not getPlayerByNameWildcard(current)) then
 		db.query("UPDATE `players` SET name=\"" .. new .. "\" WHERE name=\"" .. current .. "\";")
 		return true
 	else

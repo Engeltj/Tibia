@@ -8,7 +8,7 @@ function onStepIn(cid, item, position, fromPosition)
 	local empty_room = { }
 	local send_pos = getPlayerPosition(cid)
 	local flag = 0
-	if ((hasCondition(cid, CONDITION_INFIGHT) == true) and (getTileInfo(send_pos).protection == false)) then
+	if ((Player(cid):getCondition(CONDITION_INFIGHT) == true) and (getTileInfo(send_pos).protection == false)) then
 		doSendMagicEffect(send_pos, 2)
 		doPlayerSendCancel(cid, "You may not do this while in battle.")
 		return false
