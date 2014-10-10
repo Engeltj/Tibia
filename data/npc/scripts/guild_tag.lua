@@ -21,7 +21,7 @@ function creatureSayCallback(cid, type, msg)
 		local name = getPlayerName(cid)
 		local _, _, tag = string.find(name, '(%[%w+%])')
 		local gid = getPlayerGuildId(cid)
-		local rid = getPlayerGuildRankId(cid) % 3
+		local rid = getPlayerGuildLevel(cid)
 		
 		if not (gid > 0) then
 			selfSay('You must be in a guild to purchase a tag.', cid)
@@ -29,7 +29,7 @@ function creatureSayCallback(cid, type, msg)
 			return true
 		end
 		
-		if (rid == 1) then
+		if (rid == 3) then
 			if (tag ~= nil) then
 				selfSay('What would you like to change you guild tag to?', cid)
 			else
@@ -75,7 +75,7 @@ function creatureSayCallback(cid, type, msg)
 				-- name = string.gsub(name, '(%[%w+%])', "%["..newtag.."%]", 1)
 			-- end
 			--doPlayerChangeName(guid, getPlayerName(cid), name)
-			local rid = getPlayerGuildRankId(cid)
+			local gid = getPlayerGuildId(cid)
 			local result = db.getResult("SELECT `name` FROM `players` WHERE `players`.`rank_id` BETWEEN '"..rid.."' AND '"..(rid+2).."';")
 			if (result:getID() ~= -1) then
 				while true do

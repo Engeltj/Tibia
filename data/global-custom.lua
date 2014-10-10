@@ -9,6 +9,23 @@ function setAttackFormula(combat, type, minl, maxl, minm, maxm, min, max)
 end
 
 
+-- Player must be offline for this to actually work
+function doPlayerChangeName(current, new)
+	if (not getPlayerByNameWildcard(current))
+		db.query("UPDATE `players` SET name=\"" .. new .. "\" WHERE name=\"" .. current .. "\";")
+		return true
+	else
+		return false
+	end
+end
+
+-- @params guild ID
+function getGuildTag(gid)
+	local result = db.storeQuery("SELECT `tag` FROM `guilds` WHERE id=" .. gid .. ";")
+	local tag = result:getDataString("name")
+	return tag
+end
+
 -- tag outfits
 red = {lookType = 128, lookHead = 113,lookBody = 113,lookLegs = 113,lookFeet = 95,lookAddons = 0} -- it
 blue = {lookType = 128, lookHead = 88,lookBody = 88,lookLegs = 88,lookFeet = 95,lookAddons = 0} -- not it

@@ -8,10 +8,10 @@ killsToBlackSkull = 6
 pzLocked = 60000
 removeAmmoWhenUsingDistanceWeapon = "yes"
 removeChargesFromRunes = "yes"
-timeToDecreaseFrags = 24 * 60 * 60 * 1000
+timeToDecreaseFrags = 12 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2000
-experienceByKillingPlayers = "no"
+experienceByKillingPlayers = "yes"
 expFromPlayersLevelRange = 75
 noDamageToSameLookfeet = "no"
 
@@ -64,6 +64,7 @@ mysqlPass = "seq092uel15"
 mysqlDatabase = "Tibia"
 mysqlPort = 3306
 mysqlSock = ""
+passwordType = "sha1"
 
 -- Misc.
 allowChangeOutfit = "yes"
