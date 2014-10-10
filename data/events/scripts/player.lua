@@ -87,6 +87,7 @@ function Player:onLookInShop(itemType, count)
 end
 
 function Player:onMoveItem(item, count, fromPosition, toPosition)
+	self:sendTextMessage("You moved an item")
 	if item.actionid == 2038 then
 		if (self:getStorageValue(102) == -1) then
 			self:addItem(item.itemid, 1)
