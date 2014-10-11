@@ -22,7 +22,7 @@ end
 local function counterPlayers_nofix()
 	local count = 0
 	for i, pos in ipairs(positions) do
-		local player = getThingFromPosition(pos) or 0
+		local player = getThingfromPos(pos) or 0
 		if isPlayer(player.uid) then
 			count = count + 1
 		end

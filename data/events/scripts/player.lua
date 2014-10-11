@@ -4,7 +4,14 @@ end
 
 function Player:onLook(thing, position, distance)
 	local description = "You see " .. thing:getDescription(distance)
-	if self:getGroup():getAccess() then
+	if thing:getId() == 8880 then
+		local subHp = math.ceil((self:getHealth()/4 - 1)*-1)
+		if subHp ~= 0 then
+			self:addHealth(subHp)
+		end
+		doSendMagicEffect(self:getPosition(),3)
+		return false
+	elseif self:getGroup():getAccess() then
 		if thing:isItem() then
 			description = string.format("%s\nItemID: [%d]", description, thing:getId())
 
@@ -87,33 +94,32 @@ function Player:onLookInShop(itemType, count)
 end
 
 function Player:onMoveItem(item, count, fromPosition, toPosition)
-	self:sendTextMessage("You moved an item")
-	if item.actionid == 2038 then
+	if item:getActionId() == 2038 then
 		if (self:getStorageValue(102) == -1) then
 			self:addItem(item.itemid, 1)
-			if item.itemid == 2403 then
+			if item:getId() == 2403 then
 				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with a sword!")
 				self:setStorageValue(102, 1)
-			elseif item.itemid == 2382 then
+			elseif item:getId() == 2382 then
 				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with a club!")
 				self:setStorageValue(102, 2)
-			elseif item.itemid == 2388 then
+			elseif item:getId() == 2388 then
 				self:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You've chosen to start your journey with an axe!")
 				self:setStorageValue(102, 3)
 			end
 		else
-			if item.itemid == 2403 then
+			if item:getId() == 2403 then
 				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to sword!")
 				self:setStorageValue(102, 1)
-			elseif item.itemid == 2382 then
+			elseif item:getId()  == 2382 then
 				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to club!")
 				self:setStorageValue(102, 2)
-			elseif item.itemid == 2388 then
+			elseif item:getId()  == 2388 then
 				self:sendTextMessage(MESSAGE_INFO_DESCR, "You've changed your weapon class to axe!")
 				self:setStorageValue(102, 3)
 			end
 		end
-		-- doSendMagicEffect(getPlayerPosition(cid), 12)
+		doSendMagicEffect(self:getPosition(), 12)
 		return false
 	end
 	return true

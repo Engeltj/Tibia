@@ -212,8 +212,8 @@ end
 
 -- Player must be offline for this to actually work
 function doPlayerChangeName(current, new)
-	if (not getPlayerByNameWildcard(current))
-		db.query("UPDATE `players` SET name=\"" .. new .. "\" WHERE name=\"" .. current .. "\";")
+	db.query("UPDATE `players` SET name=\"" .. new .. "\" WHERE name=\"" .. current .. "\";")
+	if (not getPlayerByName(current)) then
 		return true
 	else
 		return false
@@ -222,9 +222,14 @@ end
 
 -- @params guild ID
 function getGuildTag(gid)
-	local result = db.storeQuery("SELECT `tag` FROM `guilds` WHERE id=" .. gid .. ";")
-	local tag = result:getDataString("name")
+	local resultId  = db.storeQuery("SELECT `tag` FROM `guilds` WHERE id=" .. tostring(gid) .. ";")
+	local tag = result.getDataString("name")
 	return tag
+end
+
+-- @params guild ID
+function setGuildTag(gid, tag)
+	db.query("UPDATE `guilds` SET tag=\"" .. tag .. "\" WHERE id=" .. tostring(gid) .. ";")
 end
 
 -- tag outfits

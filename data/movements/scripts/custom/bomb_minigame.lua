@@ -71,7 +71,7 @@ local function startGame()
 			current.x = start.x + x
 			current.y = start.y + y
 			if isPlayer(players[count]) then
-				doTeleportThing(players[count], current)
+				Player(players[count]):teleportTo(current)
 				doSendMagicEffect(current, 13)
 				setPlayerStorageValue(players[count], 1705, -1)
 			end
@@ -86,7 +86,7 @@ function onStepIn(cid, item, toPos, itemEx, fromPos)
 		doPlayerSendTextMessage(cid, MESSAGE_LOOT, "Please place your bet to register to this event.")
 		doTransformItem(item.uid,425)
 	elseif item.itemid == 419 then
-		doTeleportThing(cid, fromPos, false)
+		dPlayer(players[count]):teleportTo(fromPos, false)
 	end
 	-- elseif item.itemid == 426 then
 		-- if getCreatureStorage(cid, 1705) == -1 then

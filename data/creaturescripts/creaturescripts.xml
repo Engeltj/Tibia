@@ -9,13 +9,10 @@
 	<event type="kill" name="Dota" script="custom/dota.lua"/>
 	<event type="preparedeath" name="DeathReturn" script="custom/death_return.lua"/>
 	<!-- <event type="throw" name="StealShop" script="custom/shop.lua"/> -->
-	<!-- <event type="throw" name="FirstWeapon" script="custom/first_weapon.lua"/> -->
-	<!-- <event type="look" name="StartDie" script="custom/startDie.lua"/> -->
 	<event type="login" name="Interest" script="custom/interest.lua"/>
 	<!-- <event type="target" name="Friendly" script="custom/friendly_fire.lua"/> -->
 	<event type="logout" name="TagCheck" script="custom/guildtag_check.lua"/>
 	<!-- <event type="login" name="Tutorial" script="custom/tutorial.lua"/>-->
-	<!-- <event type="areacombat" name="AOEProtect" script="custom/AOE_protect.lua"/> NOT NEEDED ANYMORE -->
 	<!-- <event type="target" name="Tag" script="custom/tag.lua"/> -->
 	<!-- <event type="throw" name="Gravedigger" script="custom/quest_gravedigger.lua"/> -->
 	<event type="kill" name="Farmer" script="custom/quest_farmer.lua"/>

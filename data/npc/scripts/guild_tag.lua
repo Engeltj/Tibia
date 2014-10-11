@@ -2,6 +2,7 @@ local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 local talkState = {}
+local _tag = ""
 
 function onCreatureAppear(cid)				npcHandler:onCreatureAppear(cid) 			end
 function onCreatureDisappear(cid) 			npcHandler:onCreatureDisappear(cid) 		end
@@ -57,7 +58,7 @@ function creatureSayCallback(cid, type, msg)
 		else
 			selfSay("For 25cc, would you like to change your guild tag to {"..newtag.."}?", cid)
 		end
-		setPlayerStorageValue(cid, 16002, newtag)
+		_tag = newtag
 		talkState[talkUser] = 3
 	elseif (talkState[talkUser] == 3) and (msgcontains(msg, 'yes')) then
 		local name = getPlayerName(cid)
@@ -67,44 +68,17 @@ function creatureSayCallback(cid, type, msg)
 			cost = 250000
 		end
 		if (doPlayerRemoveMoney(cid, cost)) then
-			local newtag = getPlayerStorageValue(cid, 16002)
-			--local guid = getPlayerGUID(cid)
-			-- if (tag == nil) then
-				-- name = "[" .. newtag .. "] " .. name
-			-- else
-				-- name = string.gsub(name, '(%[%w+%])', "%["..newtag.."%]", 1)
-			-- end
-			--doPlayerChangeName(guid, getPlayerName(cid), name)
 			local gid = getPlayerGuildId(cid)
-			local result = db.getResult("SELECT `name` FROM `players` WHERE `players`.`rank_id` BETWEEN '"..rid.."' AND '"..(rid+2).."';")
-			if (result:getID() ~= -1) then
-				while true do
-					local name = result:getDataString("name")
-					local new_name = result:getDataString("name")
-					--print ("OLD: " .. temp)
-					local guid = getPlayerGUIDByName(new_name)
-					_, _, tag = string.find(new_name, '(%[%w+%])')
-					if (tag == nil) then
-						new_name = "[" .. newtag .. "] " .. new_name
-					else
-						new_name = string.gsub(new_name, '(%[%w+%])', "%["..newtag.."%]", 1)
-					end
-					local cid2 = getPlayerByName(name)
-					
-					if (cid2 ~= nil) then
-						doPlayerSendTextMessage(cid2, MESSAGE_EVENT_ADVANCE, "Your tag has been set. Relog for updated tag.")
-					end
-					doPlayerChangeName(guid, name, new_name)
-					
-					--print ("NEW: " .. temp)
-					if not(result:next()) then
-						break
-					end
-				end
-				result:free()
+			local name = Player(cid):getName()
+			_, _, tag = string.find(name, '(%[%w+%])')
+			if (tag == nil) then
+				new_name = "[" .. _tag .. "] " .. name
+			else
+				new_name = string.gsub(name, '(%[%w+%])', "%[".. _tag .."%]", 1)
 			end
-			
-			setPlayerStorageValue(cid, 16002, -1)
+			Player(cid):remove()
+			-- Player(cid):sendTextMessage(MESSAGE_EVENT_ADVANCE, "Your tag has been set. Relog for updated tag.")
+			doPlayerChangeName(name, new_name)
 			selfSay('Your tag has been updated! You must relog for these changes to apply.', cid)
 		else
 			selfSay('You do not have enough money! Come again.', cid)

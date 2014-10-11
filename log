@@ -10,8 +10,56 @@ Visit our forum for updates, support, and resources: http://otland.net/.
 >> Loading vocations
 >> Loading items
 >> Loading script systems
+[Warning - Weapons::registerEvent] Duplicate registered item with id: 10318
+[Warning - Event::checkScript] Can not load script: scripts/burst_arrow.lua
+cannot open data/weapons/scripts/burst_arrow.lua: No such file or directory
 >> Loading monsters
 >> Loading outfits
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
+[Warning - Outfits::loadFromXml] Missing outfit type.
 >> Checking world type... PVP
 >> Loading map
 > Map size: 4096x4096.
@@ -408,7 +456,7 @@ Visit our forum for updates, support, and resources: http://otland.net/.
 [Warning - IOMap::loadMap] Moveable item with ID: 7435, in house: 1, at position [x: 2502, y: 2419, z: 7].
 [Warning - IOMap::loadMap] Moveable item with ID: 7433, in house: 1, at position [x: 2503, y: 2419, z: 7].
 Duplicate uniqueId 1000
-> Map loading time: 3.349 seconds.
+> Map loading time: 3.642 seconds.
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #3 - House id: 62
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #4 - House id: 63
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #5 - House id: 64

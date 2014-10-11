@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
+	<!-- Custom -->
+	<talkaction words="/autoloot" access="0" script="custom/autoloot.lua"/>
+	<talkaction words="/shop" access="0" script="custom/shopsystem.lua"/>
+	<talkaction words="/test" access="0" script="custom/test.lua"/>
+	<talkaction words="/mounts" access="0" script="custom/mounts.lua"/>
+	<talkaction words="!top" script="custom/highscore.lua"/>
+	<talkaction words="!travel" script="custom/waypoints.lua"/>
+	<talkaction words="!bail" script="custom/bounty.lua"/>
+	
+	<talkaction words="!outfit" script="custom/outfit.lua"/>
+	<talkaction words="!mount" script="custom/mount.lua"/>
+	
+	<talkaction words="!balance" script="custom/balance.lua"/>
+	<talkaction words="custos" script="custom/find_person.lua"/>
+
 	<!-- commands -->
 	<talkaction words="/ban" separator=" " script="ban.lua" />
 	<talkaction words="/ipban" separator=" " script="ipban.lua" />
