@@ -1,3 +1,29 @@
+wandAnim ={
+	[8910] = CONST_ANI_DEATH,
+	[8911] = CONST_ANI_ICE,
+	[8912] = CONST_ANI_SMALLEARTH,
+	[8920] = CONST_ANI_ENERGY,
+	[8921] = CONST_ANI_FIRE,
+	[8922] = CONST_ANI_DEATH,
+	[13760] = CONST_ANI_DEATH,
+	[13872] = CONST_ANI_SMALLICE,
+	[13880] = CONST_ANI_ENERGY,
+	[18390] = CONST_ANI_ENERGY,
+	[18409] = CONST_ANI_FIRE,
+	[18411] = CONST_ANI_SMALLEARTH,
+	[18412] = CONST_ANI_SMALLICE,
+	[2181] = CONST_ANI_SMALLEARTH,
+	[2183] = CONST_ANI_SMALLICE,
+	[2185] = CONST_ANI_DEATH,
+	[2186] = CONST_ANI_SMALLICE,
+	[2187] = CONST_ANI_FIRE,
+	[2188] = CONST_ANI_DEATH,
+	[2189] = CONST_ANI_ENERGY,
+	[2190] = CONST_ANI_ENERGY,
+	[2191] = CONST_ANI_FIRE
+}
+
+
 local poison = createCombatObject()
 setCombatParam(poison, COMBAT_PARAM_TYPE, COMBAT_POISONDAMAGE)
 setCombatParam(poison, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_POISON)
@@ -70,7 +96,7 @@ setCombatParam(default, COMBAT_PARAM_AGGRESSIVE, true)
 
 function getDamage(cid, level, maglevel)
 	local wand = getWand(cid)
-	local attack = getItemAttack(wand:getUniqueId()) or 0
+	local attack = wand:getAttribute('attack') or 0
 	local maximum =	0.085 * 1 * attack * maglevel + level/5 + attack
 	return maximum
 end
@@ -124,22 +150,23 @@ setCombatCallback(default, CALLBACK_PARAM_LEVELMAGICVALUE, "defaultValues")
 
 function onUseWeapon(cid, var)
 	local wep = getPlayerWeapon(cid) or 0
-
-	if (wep:getAttribute('shootType') == CONST_ANI_POISON) then
+	print('Wep type: ' .. tostring(wep:getId()) )
+	print('Shoot type2: ' .. tostring(wandAnim[wep:getId()]))
+	if (wandAnim[wep:getId()] == CONST_ANI_POISON) then
 		return doCombat(cid, poison, var)
-	elseif (wep:getAttribute('shootType') == CONST_ANI_ENERGY) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_ENERGY) then
 		return doCombat(cid, energy, var)	
-	elseif (wep:getAttribute('shootType') == CONST_ANI_FIRE) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_FIRE) then
 		return doCombat(cid, fire, var)	
-	elseif (wep:getAttribute('shootType') == CONST_ANI_ICE) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_ICE) then
 		return doCombat(cid, ice, var)
-	elseif (wep:getAttribute('shootType') == CONST_ANI_SMALLICE) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_SMALLICE) then
 		return doCombat(cid, smallice, var)
-	elseif (wep:getAttribute('shootType') == CONST_ANI_DEATH) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_DEATH) then
 		return doCombat(cid, death, var)
-	elseif (wep:getAttribute('shootType') == CONST_ANI_EARTH) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_EARTH) then
 		return doCombat(cid, earth, var)
-	elseif (wep:getAttribute('shootType') == CONST_ANI_SMALLEARTH) then
+	elseif (wandAnim[wep:getId()] == CONST_ANI_SMALLEARTH) then
 		return doCombat(cid, smallearth, var)
 	else
 		return doCombat(cid, default, var)
