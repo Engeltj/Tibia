@@ -50,29 +50,42 @@ shop_tiles = {
 }
 
 function setItemName(uid,name)
-	return doItemSetAttribute(uid,'name',name)
+	return Item(uid):setAttribute('name',name)
 end
 function setItemArmor(uid,name)
-	return doItemSetAttribute(uid,'armor',name)
+	return Item(uid):setAttribute('armor',name)
 end
 function setItemDefense(uid,name)
-	return doItemSetAttribute(uid,'defense',name)
+	return Item(uid):setAttribute('defense',name)
 end
 function setItemAttack(uid,name)
-	return doItemSetAttribute(uid,'attack',name)
+	return Item(uid):setAttribute('attack',name)
 end
 function getItemAttack(uid)
-	return getItemAttribute(uid,'attack')
+	return Item(uid):getAttribute('attack')
 end
 function getItemDefense(uid)
-	return getItemAttribute(uid,'defense')
+	return Item(uid):getAttribute('defense')
 end
 function getItemArmor(uid)
-   if type(uid) == 'number' then
-	  return getItemAttribute(uid,'armor')
-   else
-	  return getItemInfo(uid.itemid).armor
-   end
+	return Item(uid):getAttribute('armor')
+end
+
+function getPlayerWeapon(cid)
+	local item_left = Player(cid):getSlotItem(CONST_SLOT_LEFT)
+	local item_right = Player(cid):getSlotItem(CONST_SLOT_RIGHT)
+	if (item_left ~= nil) then
+		local wep_type = item_left:getType():getWeaponType()
+		if (wep_type > 0 and wep_type < 7 and wep_type ~= WEAPON_SHIELD) then
+			return item_left
+		end
+	elseif (item_right ~= nil) then
+		local wep_type = item_right:getType():getWeaponType()
+		if (wep_type > 0 and wep_type < 7 and wep_type ~= WEAPON_SHIELD) then
+			return item_right
+		end
+	end
+	return false
 end
 
 function deepcopy(orig)
@@ -244,7 +257,7 @@ function isArmor(uid) -- Function by Mock the bear.
 end
 function isWeapon(uid) -- Function by Mock the bear.
 	uid = uid or 0
-	local f = getItemWeaponType(uid)
+	local f = Item(uid):getType():getWeaponType()
 	if f == 1 or f == 2 or f == 3 then
 		return true
 	end
@@ -252,21 +265,20 @@ function isWeapon(uid) -- Function by Mock the bear.
 end
 function isBow(uid) -- Function by Mock the bear.
 	uid = uid or 0
-	if getItemWeaponType(uid) == 4 then
+	if Item(uid):getType():getWeaponType() == 4 then
 		return true
 	end
 	return false
 end
 function isShield(uid) -- Function by Mock the bear.
 	uid = uid or 0
-	if getItemWeaponType(uid) == 5 then
+	if Item(uid):getType():getWeaponType() == 5 then
 		return true
 	end
 	return false
 end
-function isWand(uid) -- Function by Tim
-	uid = uid or 0
-	if getItemWeaponType(uid) == 7 then
+function isWand(item) -- Function by Tim
+	if item:getType():getWeaponType() == WEAPON_WAND then
 		return true
 	end
 	return false
@@ -286,12 +298,11 @@ function getBow(cid)
 	return bow
 end
 function getWand(cid)
-	local wep = getPlayerWeapon(cid) or 0
-	local wand = false
-	if (wep.itemid > 0) and isWand(wep.uid) then
-		wand = wep.uid
+	local wep = getPlayerWeapon(cid)
+	if isWand(wep) then
+		return wep
 	end
-	return wand
+	return false
 end
 function getAmmo(cid)
 	local ammo = getPlayerSlotItem(cid, CONST_SLOT_AMMO) or false

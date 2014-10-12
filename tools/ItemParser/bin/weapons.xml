@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+	<melee id="2403" level="1" unproperly="1" event="function" value="default"/> <!-- knife -->
+	<melee id="2379" level="1" unproperly="1" event="function" value="default"/> <!-- dagger -->
+	<melee id="2404" level="2" unproperly="1" event="function" value="default"/> <!-- combat knife -->
+	<melee id="2402" level="4" unproperly="1" event="function" value="default"/> <!-- silver dagger -->
+	<melee id="2420" level="7" unproperly="1" event="function" value="default"/> <!-- machete -->
+	<melee id="2384" level="11" unproperly="1" event="function" value="default"/> <!-- rapier -->
+	<melee id="2411" level="15" unproperly="1" event="function" value="default"/> <!-- poison dagger -->
+	<melee id="2376" level="19" unproperly="1" event="function" value="default"/> <!-- sword -->
+	<melee id="2406" level="24" unproperly="1" event="function" value="default"/> <!-- short sword -->
+	<melee id="5908" level="30" unproperly="1" event="function" value="default"/> <!-- obsidian knife -->
+	<melee id="2450" level="37" unproperly="1" event="function" value="default"/> <!-- bone sword -->
+	<melee id="2351" level="44" unproperly="1" event="function" value="default"/> <!-- cobrafang dagger -->
+	<melee id="2412" level="52" unproperly="1" event="function" value="default"/> <!-- katana -->
+	<melee id="2377" level="60" unproperly="1" event="function" value="default"/> <!-- two handed sword -->
+	<melee id="2385" level="69" unproperly="1" event="function" value="default"/> <!-- sabre -->
+	<melee id="11395" level="78" unproperly="1" event="function" value="default"/> <!-- crimson sword -->
+	<melee id="2438" level="88" unproperly="1" event="function" value="default"/> <!-- epee -->
+	<melee id="2395" level="99" unproperly="1" event="function" value="default"/> <!-- carlin sword -->
+	<melee id="7385" level="111" unproperly="1" event="function" value="default"/> <!-- crimson sword -->
+	<melee id="7383" level="123" unproperly="1" event="function" value="default"/> <!-- relic sword -->
+	<melee id="2397" level="135" unproperly="1" event="function" value="default"/> <!-- longsword -->
+	<melee id="8209" level="148" unproperly="1" event="function" value="default"/> <!-- crimson sword -->
+	<melee id="2419" level="162" unproperly="1" event="function" value="default"/> <!-- scimitar -->
+	<melee id="2442" level="177" unproperly="1" event="function" value="default"/> <!-- heavy machete -->
+	<melee id="7384" level="192" unproperly="1" event="function" value="default"/> <!-- mystic blade -->
+	<melee id="7390" level="208" unproperly="1" event="function" value="default"/> <!-- the justice seeker -->
+	<melee id="2393" level="224" unproperly="1" event="function" value="default"/> <!-- giant sword -->
+	<melee id="2413" level="241" unproperly="1" event="function" value="default"/> <!-- broadsword -->
+	<melee id="7404" level="258" unproperly="1" event="function" value="default"/> <!-- assassin dagger -->
+	<melee id="7386" level="277" unproperly="1" event="function" value="default"/> <!-- mercenary sword -->
+	<melee id="2409" level="295" unproperly="1" event="function" value="default"/> <!-- serpent sword -->
+	<melee id="7416" level="315" unproperly="1" event="function" value="default"/> <!-- bloody edge -->
+	<melee id="2383" level="335" unproperly="1" event="function" value="default"/> <!-- spike sword -->
+	<melee id="7382" level="355" unproperly="1" event="function" value="default"/> <!-- demonrage sword -->
+	<melee id="7418" level="377" unproperly="1" event="function" value="default"/> <!-- nightmare blade -->
+	<melee id="2451" level="398" unproperly="1" event="function" value="default"/> <!-- djinn blade -->
+	<melee id="10313" level="421" unproperly="1" event="function" value="default"/> <!-- incredible mumpiz slayer -->
+	<melee id="2407" level="444" unproperly="1" event="function" value="default"/> <!-- bright sword -->
+	<melee id="7405" level="468" unproperly="1" event="function" value="default"/> <!-- havoc blade -->
+	<melee id="7408" level="492" unproperly="1" event="function" value="default"/> <!-- wyvern fang -->
+	<melee id="8602" level="517" unproperly="1" event="function" value="default"/> <!-- jagged sword -->
+	<melee id="2400" level="542" unproperly="1" event="function" value="default"/> <!-- magic sword -->
+	<melee id="7417" level="569" unproperly="1" event="function" value="default"/> <!-- runed sword -->
+	<melee id="7406" level="595" unproperly="1" event="function" value="default"/> <!-- blacksteel sword -->
+	<melee id="8930" level="623" unproperly="1" event="function" value="default"/> <!-- emerald sword -->
+	<melee id="2390" level="651" unproperly="1" event="function" value="default"/> <!-- magic longsword -->
+	<melee id="7403" level="679" unproperly="1" event="function" value="default"/> <!-- berserker -->
+	<melee id="7391" level="709" unproperly="1" event="function" value="default"/> <!-- thaian sword -->
+	<melee id="18450" level="738" unproperly="1" event="function" value="default"/> <!-- crystalline sword -->
+	<melee id="7407" level="769" unproperly="1" event="function" value="default"/> <!-- haunted blade -->
+	<melee id="18465" level="800" unproperly="1" event="function" value="default"/> <!-- shiny blade -->
+	<melee id="8932" level="832" unproperly="1" event="function" value="default"/> <!-- the calamity -->
+	<melee id="2446" level="864" unproperly="1" event="function" value="default"/> <!-- pharaoh sword -->
+	<melee id="7449" level="897" unproperly="1" event="function" value="default"/> <!-- crystal sword -->
+	<melee id="2408" level="931" unproperly="1" event="function" value="default"/> <!-- warlord sword -->
+	<melee id="8931" level="965" unproperly="1" event="function" value="default"/> <!-- the epiphany -->
+	<melee id="6528" level="1000" unproperly="1" event="function" value="default"/> <!-- the avenger -->
+	<melee id="7959" level="1035" unproperly="1" event="function" value="default"/> <!-- Firlefanz -->
+	<melee id="2652" level="1" unproperly="1" event="function" value="default"/> <!-- green tunic -->
+	<melee id="2654" level="1" unproperly="1" event="function" value="default"/> <!-- cape -->
+	<melee id="2655" level="2" unproperly="1" event="function" value="default"/> <!-- red robe -->
+	<melee id="2653" level="5" unproperly="1" event="function" value="default"/> <!-- red tunic -->
+	<melee id="6095" level="8" unproperly="1" event="function" value="default"/> <!-- pirate shirt -->
+	<melee id="2467" level="11" unproperly="1" event="function" value="default"/> <!-- leather armor -->
+	<melee id="2651" level="16" unproperly="1" event="function" value="default"/> <!-- coat -->
+	<melee id="2484" level="21" unproperly="1" event="function" value="default"/> <!-- studded armor -->
+	<melee id="2650" level="26" unproperly="1" event="function" value="default"/> <!-- jacket -->
+	<melee id="2485" level="33" unproperly="1" event="function" value="default"/> <!-- doublet -->
+	<melee id="7463" level="40" unproperly="1" event="function" value="default"/> <!-- mammoth fur cape -->
+	<melee id="8872" level="47" unproperly="1" event="function" value="default"/> <!-- belted cape -->
+	<melee id="2464" level="55" unproperly="1" event="function" value="default"/> <!-- chain armor -->
+	<melee id="2508" level="64" unproperly="1" event="function" value="default"/> <!-- native armor -->
+	<melee id="8868" level="74" unproperly="1" event="function" value="default"/> <!-- velvet mantle -->
+	<melee id="8869" level="84" unproperly="1" event="function" value="default"/> <!-- greenwood coat -->
+	<melee id="2483" level="95" unproperly="1" event="function" value="default"/> <!-- scale armor -->
+	<melee id="8867" level="107" unproperly="1" event="function" value="default"/> <!-- dragon robe -->
+	<melee id="2465" level="119" unproperly="1" event="function" value="default"/> <!-- brass armor -->
+	<melee id="7897" level="132" unproperly="1" event="function" value="default"/> <!-- glacier robe -->
+	<melee id="11356" level="145" unproperly="1" event="function" value="default"/> <!-- Zaoan robe -->
+	<melee id="2489" level="160" unproperly="1" event="function" value="default"/> <!-- dark armor -->
+	<melee id="2463" level="174" unproperly="1" event="function" value="default"/> <!-- plate armor -->
+	<melee id="7898" level="190" unproperly="1" event="function" value="default"/> <!-- lightning robe -->
+	<melee id="2476" level="206" unproperly="1" event="function" value="default"/> <!-- knight armor -->
+	<melee id="3968" level="223" unproperly="1" event="function" value="default"/> <!-- leopard armor -->
+	<melee id="7884" level="240" unproperly="1" event="function" value="default"/> <!-- terra mantle -->
+	<melee id="7899" level="259" unproperly="1" event="function" value="default"/> <!-- magma coat -->
+	<melee id="8880" level="278" unproperly="1" event="function" value="default"/> <!-- swamplair armor -->
+	<melee id="2505" level="297" unproperly="1" event="function" value="default"/> <!-- elven mail -->
+	<melee id="8865" level="317" unproperly="1" event="function" value="default"/> <!-- dark lord's cape -->
+	<melee id="2503" level="338" unproperly="1" event="function" value="default"/> <!-- dwarven armor -->
+	<melee id="8886" level="360" unproperly="1" event="function" value="default"/> <!-- molten plate -->
+	<melee id="8866" level="382" unproperly="1" event="function" value="default"/> <!-- the robe of the ice queen -->
+	<melee id="8883" level="404" unproperly="1" event="function" value="default"/> <!-- windborn colossus armor -->
+	<melee id="8885" level="428" unproperly="1" event="function" value="default"/> <!-- divine plate -->
+	<melee id="8878" level="452" unproperly="1" event="function" value="default"/> <!-- crystalline armor -->
+	<melee id="8882" level="477" unproperly="1" event="function" value="default"/> <!-- earthborn titan armor -->
+	<melee id="2500" level="502" unproperly="1" event="function" value="default"/> <!-- amazon armor -->
+	<melee id="2492" level="528" unproperly="1" event="function" value="default"/> <!-- dragon scale mail -->
+	<melee id="8877" level="555" unproperly="1" event="function" value="default"/> <!-- lavos armor -->
+	<melee id="8892" level="583" unproperly="1" event="function" value="default"/> <!-- ethno coat -->
+	<melee id="2487" level="611" unproperly="1" event="function" value="default"/> <!-- crown armor -->
+	<melee id="2472" level="640" unproperly="1" event="function" value="default"/> <!-- magic plate armor -->
+	<melee id="8881" level="669" unproperly="1" event="function" value="default"/> <!-- fireborn giant armor -->
+	<melee id="8887" level="699" unproperly="1" event="function" value="default"/> <!-- frozen plate -->
+	<melee id="8884" level="730" unproperly="1" event="function" value="default"/> <!-- oceanborn leviathan armor -->
+	<melee id="8879" level="761" unproperly="1" event="function" value="default"/> <!-- voltage armor -->
+	<melee id="2466" level="793" unproperly="1" event="function" value="default"/> <!-- golden armor -->
+	<melee id="8889" level="826" unproperly="1" event="function" value="default"/> <!-- skullcracker armor -->
+	<melee id="2656" level="859" unproperly="1" event="function" value="default"/> <!-- blue robe -->
+	<melee id="8888" level="893" unproperly="1" event="function" value="default"/> <!-- master archer's armor -->
+	<melee id="9776" level="928" unproperly="1" event="function" value="default"/> <!-- yalahari armor -->
+	<melee id="8891" level="963" unproperly="1" event="function" value="default"/> <!-- paladin armor -->
+	<melee id="8890" level="1000" unproperly="1" event="function" value="default"/> <!-- robe of the underworld -->
+	<melee id="2486" level="1036" unproperly="1" event="function" value="default"/> <!-- noble armor -->
+	<melee id="7459" level="1" unproperly="1" event="function" value="default"/> <!-- pair of earmuffs -->
+	<melee id="2461" level="2" unproperly="1" event="function" value="default"/> <!-- leather helmet -->
+	<melee id="5917" level="4" unproperly="1" event="function" value="default"/> <!-- bandana -->
+	<melee id="7458" level="8" unproperly="1" event="function" value="default"/> <!-- fur cap -->
+	<melee id="3971" level="13" unproperly="1" event="function" value="default"/> <!-- charmer's tiara -->
+	<melee id="2482" level="19" unproperly="1" event="function" value="default"/> <!-- studded helmet -->
+	<melee id="5741" level="26" unproperly="1" event="function" value="default"/> <!-- skull helmet -->
+	<melee id="6096" level="34" unproperly="1" event="function" value="default"/> <!-- pirate hat -->
+	<melee id="2458" level="43" unproperly="1" event="function" value="default"/> <!-- chain helmet -->
+	<melee id="2460" level="54" unproperly="1" event="function" value="default"/> <!-- brass helmet -->
+	<melee id="2480" level="65" unproperly="1" event="function" value="default"/> <!-- legion helmet -->
+	<melee id="2481" level="77" unproperly="1" event="function" value="default"/> <!-- soldier helmet -->
+	<melee id="5924" level="91" unproperly="1" event="function" value="default"/> <!-- damaged steel helmet -->
+	<melee id="2459" level="106" unproperly="1" event="function" value="default"/> <!-- iron helmet -->
+	<melee id="2502" level="121" unproperly="1" event="function" value="default"/> <!-- dwarven helmet -->
+	<melee id="7903" level="138" unproperly="1" event="function" value="default"/> <!-- terra hood -->
+	<melee id="2473" level="156" unproperly="1" event="function" value="default"/> <!-- viking helmet -->
+	<melee id="2479" level="175" unproperly="1" event="function" value="default"/> <!-- strange helmet -->
+	<melee id="2490" level="195" unproperly="1" event="function" value="default"/> <!-- dark helmet -->
+	<melee id="2457" level="216" unproperly="1" event="function" value="default"/> <!-- steel helmet -->
+	<melee id="5461" level="238" unproperly="1" event="function" value="default"/> <!-- helmet of the deep -->
+	<melee id="11368" level="261" unproperly="1" event="function" value="default"/> <!-- jade hat -->
+	<melee id="2506" level="286" unproperly="1" event="function" value="default"/> <!-- dragon scale helmet -->
+	<melee id="2462" level="311" unproperly="1" event="function" value="default"/> <!-- devil helmet -->
+	<melee id="2475" level="338" unproperly="1" event="function" value="default"/> <!-- warrior helmet -->
+	<melee id="7939" level="365" unproperly="1" event="function" value="default"/> <!-- mining helmet -->
+	<melee id="3969" level="394" unproperly="1" event="function" value="default"/> <!-- horseman helmet -->
+	<melee id="2496" level="424" unproperly="1" event="function" value="default"/> <!-- horned helmet -->
+	<melee id="10316" level="454" unproperly="1" event="function" value="default"/> <!-- mighty helm of green sparks -->
+	<melee id="9778" level="486" unproperly="1" event="function" value="default"/> <!-- yalahari mask -->
+	<melee id="3972" level="519" unproperly="1" event="function" value="default"/> <!-- bonelord helmet -->
+	<melee id="7462" level="553" unproperly="1" event="function" value="default"/> <!-- ragnir helmet -->
+	<melee id="2474" level="588" unproperly="1" event="function" value="default"/> <!-- winged helmet -->
+	<melee id="7901" level="625" unproperly="1" event="function" value="default"/> <!-- lightning headband -->
+	<melee id="2498" level="662" unproperly="1" event="function" value="default"/> <!-- royal helmet -->
+	<melee id="9735" level="700" unproperly="1" event="function" value="default"/> <!-- Morik's helmet -->
+	<melee id="7902" level="740" unproperly="1" event="function" value="default"/> <!-- glacier mask -->
+	<melee id="2499" level="780" unproperly="1" event="function" value="default"/> <!-- amazon helmet -->
+	<melee id="2491" level="822" unproperly="1" event="function" value="default"/> <!-- crown helmet -->
+	<melee id="2471" level="865" unproperly="1" event="function" value="default"/> <!-- golden helmet -->
+	<melee id="2493" level="909" unproperly="1" event="function" value="default"/> <!-- demon helmet -->
+	<melee id="2497" level="954" unproperly="1" event="function" value="default"/> <!-- crusader helmet -->
+	<melee id="2342" level="1000" unproperly="1" event="function" value="default"/> <!-- helmet of the ancients -->
+	<melee id="2343" level="1047" unproperly="1" event="function" value="default"/> <!-- helmet of the ancients -->
+	<melee id="3975" level="1" unproperly="1" event="function" value="default"/> <!-- salamander shield -->
+	<melee id="3974" level="2" unproperly="1" event="function" value="default"/> <!-- sentinel shield -->
+	<melee id="2512" level="5" unproperly="1" event="function" value="default"/> <!-- wooden shield -->
+	<melee id="2541" level="9" unproperly="1" event="function" value="default"/> <!-- bone shield -->
+	<melee id="3973" level="14" unproperly="1" event="function" value="default"/> <!-- tusk shield -->
+	<melee id="2526" level="21" unproperly="1" event="function" value="default"/> <!-- studded shield -->
+	<melee id="2530" level="29" unproperly="1" event="function" value="default"/> <!-- copper shield -->
+	<melee id="2531" level="38" unproperly="1" event="function" value="default"/> <!-- viking shield -->
+	<melee id="2513" level="48" unproperly="1" event="function" value="default"/> <!-- battle shield -->
+	<melee id="2509" level="59" unproperly="1" event="function" value="default"/> <!-- steel shield -->
+	<melee id="2510" level="71" unproperly="1" event="function" value="default"/> <!-- plate shield -->
+	<melee id="2525" level="85" unproperly="1" event="function" value="default"/> <!-- dwarven shield -->
+	<melee id="2511" level="100" unproperly="1" event="function" value="default"/> <!-- brass shield -->
+	<melee id="2527" level="116" unproperly="1" event="function" value="default"/> <!-- rose shield -->
+	<melee id="2540" level="133" unproperly="1" event="function" value="default"/> <!-- scarab shield -->
+	<melee id="2535" level="152" unproperly="1" event="function" value="default"/> <!-- castle shield -->
+	<melee id="2538" level="171" unproperly="1" event="function" value="default"/> <!-- eagle shield -->
+	<melee id="6433" level="192" unproperly="1" event="function" value="default"/> <!-- necromancer shield -->
+	<melee id="2528" level="214" unproperly="1" event="function" value="default"/> <!-- tower shield -->
+	<melee id="7460" level="237" unproperly="1" event="function" value="default"/> <!-- norse shield -->
+	<melee id="6131" level="262" unproperly="1" event="function" value="default"/> <!-- tortoise shield -->
+	<melee id="2516" level="287" unproperly="1" event="function" value="default"/> <!-- dragon shield -->
+	<melee id="2521" level="314" unproperly="1" event="function" value="default"/> <!-- dark shield -->
+	<melee id="2533" level="342" unproperly="1" event="function" value="default"/> <!-- griffin shield -->
+	<melee id="2532" level="371" unproperly="1" event="function" value="default"/> <!-- ancient shield -->
+	<melee id="2515" level="402" unproperly="1" event="function" value="default"/> <!-- guardian shield -->
+	<melee id="10318" level="433" unproperly="1" event="function" value="default"/> <!-- the shield Nevermourn -->
+	<melee id="2524" level="466" unproperly="1" event="function" value="default"/> <!-- ornamented shield -->
+	<melee id="10318" level="500" unproperly="1" event="function" value="default"/> <!-- the shield Nevermourn -->
+	<melee id="6391" level="535" unproperly="1" event="function" value="default"/> <!-- nightmare shield -->
+	<melee id="2518" level="571" unproperly="1" event="function" value="default"/> <!-- bonelord shield -->
+	<melee id="2529" level="609" unproperly="1" event="function" value="default"/> <!-- black shield -->
+	<melee id="2542" level="647" unproperly="1" event="function" value="default"/> <!-- tempest shield -->
+	<melee id="2536" level="687" unproperly="1" event="function" value="default"/> <!-- medusa shield -->
+	<melee id="2534" level="728" unproperly="1" event="function" value="default"/> <!-- vampire shield -->
+	<melee id="2523" level="770" unproperly="1" event="function" value="default"/> <!-- blessed shield -->
+	<melee id="2539" level="814" unproperly="1" event="function" value="default"/> <!-- phoenix shield -->
+	<melee id="2520" level="859" unproperly="1" event="function" value="default"/> <!-- demon shield -->
+	<melee id="2522" level="904" unproperly="1" event="function" value="default"/> <!-- great shield -->
+	<melee id="2519" level="951" unproperly="1" event="function" value="default"/> <!-- crown shield -->
+	<melee id="2537" level="1000" unproperly="1" event="function" value="default"/> <!-- amazon shield -->
+	<melee id="2517" level="1049" unproperly="1" event="function" value="default"/> <!-- shield of honour -->
+	<melee id="2388" level="1" unproperly="1" event="function" value="default"/> <!-- hatchet -->
+	<melee id="2380" level="2" unproperly="1" event="function" value="default"/> <!-- hand axe -->
+	<melee id="2386" level="5" unproperly="1" event="function" value="default"/> <!-- axe -->
+	<melee id="10301" level="10" unproperly="1" event="function" value="default"/> <!-- scythe of the reaper -->
+	<melee id="2387" level="16" unproperly="1" event="function" value="default"/> <!-- double axe -->
+	<melee id="2429" level="23" unproperly="1" event="function" value="default"/> <!-- barbarian axe -->
+	<melee id="2378" level="32" unproperly="1" event="function" value="default"/> <!-- battle axe -->
+	<melee id="2381" level="42" unproperly="1" event="function" value="default"/> <!-- halberd -->
+	<melee id="2441" level="53" unproperly="1" event="function" value="default"/> <!-- daramian axe -->
+	<melee id="8293" level="65" unproperly="1" event="function" value="default"/> <!-- hallowed axe -->
+	<melee id="2440" level="79" unproperly="1" event="function" value="default"/> <!-- daramian waraxe -->
+	<melee id="2427" level="94" unproperly="1" event="function" value="default"/> <!-- guardian halberd -->
+	<melee id="2432" level="111" unproperly="1" event="function" value="default"/> <!-- fire axe -->
+	<melee id="2431" level="128" unproperly="1" event="function" value="default"/> <!-- stonecutter axe -->
+	<melee id="2454" level="147" unproperly="1" event="function" value="default"/> <!-- war axe -->
+	<melee id="3962" level="168" unproperly="1" event="function" value="default"/> <!-- beastslayer axe -->
+	<melee id="2430" level="190" unproperly="1" event="function" value="default"/> <!-- knight axe -->
+	<melee id="7436" level="213" unproperly="1" event="function" value="default"/> <!-- angelic axe -->
+	<melee id="2428" level="237" unproperly="1" event="function" value="default"/> <!-- orcish axe -->
+	<melee id="6553" level="262" unproperly="1" event="function" value="default"/> <!-- ruthless axe -->
+	<melee id="7413" level="289" unproperly="1" event="function" value="default"/> <!-- titan axe -->
+	<melee id="2435" level="318" unproperly="1" event="function" value="default"/> <!-- dwarven axe -->
+	<melee id="8601" level="347" unproperly="1" event="function" value="default"/> <!-- steel axe -->
+	<melee id="7454" level="378" unproperly="1" event="function" value="default"/> <!-- glorious axe -->
+	<melee id="7411" level="410" unproperly="1" event="function" value="default"/> <!-- ornamented axe -->
+	<melee id="7380" level="444" unproperly="1" event="function" value="default"/> <!-- headchopper -->
+	<melee id="7389" level="479" unproperly="1" event="function" value="default"/> <!-- heroic axe -->
+	<melee id="7453" level="515" unproperly="1" event="function" value="default"/> <!-- executioner -->
+	<melee id="7412" level="552" unproperly="1" event="function" value="default"/> <!-- butcher's axe -->
+	<melee id="2443" level="591" unproperly="1" event="function" value="default"/> <!-- ravager's axe -->
+	<melee id="7455" level="631" unproperly="1" event="function" value="default"/> <!-- mythril axe -->
+	<melee id="7434" level="673" unproperly="1" event="function" value="default"/> <!-- royal axe -->
+	<melee id="2415" level="715" unproperly="1" event="function" value="default"/> <!-- great axe -->
+	<melee id="2447" level="760" unproperly="1" event="function" value="default"/> <!-- twin axe -->
+	<melee id="7388" level="805" unproperly="1" event="function" value="default"/> <!-- vile axe -->
+	<melee id="7456" level="852" unproperly="1" event="function" value="default"/> <!-- noble axe -->
+	<melee id="8924" level="900" unproperly="1" event="function" value="default"/> <!-- hellforged axe -->
+	<melee id="8926" level="949" unproperly="1" event="function" value="default"/> <!-- demonwing axe -->
+	<melee id="7435" level="1000" unproperly="1" event="function" value="default"/> <!-- impaler -->
+	<melee id="7433" level="1051" unproperly="1" event="function" value="default"/> <!-- ravenwing -->
+	<melee id="2382" level="1" unproperly="1" event="function" value="default"/> <!-- club -->
+	<melee id="2448" level="2" unproperly="1" event="function" value="default"/> <!-- studded club -->
+	<melee id="2398" level="6" unproperly="1" event="function" value="default"/> <!-- mace -->
+	<melee id="2437" level="11" unproperly="1" event="function" value="default"/> <!-- light mace -->
+	<melee id="2417" level="18" unproperly="1" event="function" value="default"/> <!-- battle hammer -->
+	<melee id="7381" level="26" unproperly="1" event="function" value="default"/> <!-- mammoth whopper -->
+	<melee id="2422" level="35" unproperly="1" event="function" value="default"/> <!-- iron hammer -->
+	<melee id="2423" level="46" unproperly="1" event="function" value="default"/> <!-- clerical mace -->
+	<melee id="2321" level="59" unproperly="1" event="function" value="default"/> <!-- giant smithhammer -->
+	<melee id="2394" level="73" unproperly="1" event="function" value="default"/> <!-- morning star -->
+	<melee id="7432" level="88" unproperly="1" event="function" value="default"/> <!-- furry club -->
+	<melee id="2434" level="105" unproperly="1" event="function" value="default"/> <!-- dragon hammer -->
+	<melee id="7431" level="123" unproperly="1" event="function" value="default"/> <!-- demonbone -->
+	<melee id="7452" level="143" unproperly="1" event="function" value="default"/> <!-- spiked squelcher -->
+	<melee id="2391" level="164" unproperly="1" event="function" value="default"/> <!-- war hammer -->
+	<melee id="7421" level="186" unproperly="1" event="function" value="default"/> <!-- onyx flail -->
+	<melee id="2439" level="211" unproperly="1" event="function" value="default"/> <!-- daramian mace -->
+	<melee id="2421" level="236" unproperly="1" event="function" value="default"/> <!-- thunder hammer -->
+	<melee id="2452" level="263" unproperly="1" event="function" value="default"/> <!-- heavy mace -->
+	<melee id="8927" level="292" unproperly="1" event="function" value="default"/> <!-- dark trinity mace -->
+	<melee id="10152" level="322" unproperly="1" event="function" value="default"/> <!-- worm punisher -->
+	<melee id="7392" level="353" unproperly="1" event="function" value="default"/> <!-- orcish maul -->
+	<melee id="2424" level="386" unproperly="1" event="function" value="default"/> <!-- silver mace -->
+	<melee id="2444" level="420" unproperly="1" event="function" value="default"/> <!-- hammer of wrath -->
+	<melee id="8929" level="456" unproperly="1" event="function" value="default"/> <!-- the stomper -->
+	<melee id="8928" level="493" unproperly="1" event="function" value="default"/> <!-- obsidian truncheon -->
+	<melee id="7427" level="532" unproperly="1" event="function" value="default"/> <!-- chaos mace -->
+	<melee id="15647" level="572" unproperly="1" event="function" value="default"/> <!-- deepling squelcher -->
+	<melee id="7437" level="614" unproperly="1" event="function" value="default"/> <!-- sapphire hammer -->
+	<melee id="2445" level="657" unproperly="1" event="function" value="default"/> <!-- crystal mace -->
+	<melee id="7414" level="701" unproperly="1" event="function" value="default"/> <!-- abyss hammer -->
+	<melee id="7425" level="747" unproperly="1" event="function" value="default"/> <!-- taurus mace -->
+	<melee id="7423" level="795" unproperly="1" event="function" value="default"/> <!-- skullcrusher -->
+	<melee id="7450" level="844" unproperly="1" event="function" value="default"/> <!-- hammer of prophecy -->
+	<melee id="7451" level="894" unproperly="1" event="function" value="default"/> <!-- shadow sceptre -->
+	<melee id="7422" level="946" unproperly="1" event="function" value="default"/> <!-- jade hammer -->
+	<melee id="15414" level="1000" unproperly="1" event="function" value="default"/> <!-- ornate mace -->
+	<melee id="18451" level="1054" unproperly="1" event="function" value="default"/> <!-- crystalline axe -->
+	<melee id="2182" level="1" unproperly="1" event="function" value="default"/> <!-- snakebite rod -->
+	<wand id="2190" mana="27" level="27" event="script" value="wands.lua"> <!-- wand of vortex -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="2186" level="18" unproperly="1" event="function" value="default"/> <!-- moonlight rod -->
+	<wand id="2191" mana="52" level="52" event="script" value="wands.lua"> <!-- wand of dragonbreath -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="2185" level="51" unproperly="1" event="function" value="default"/> <!-- necrotic rod -->
+	<wand id="2188" mana="93" level="93" event="script" value="wands.lua"> <!-- wand of decay -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="8911" level="101" unproperly="1" event="function" value="default"/> <!-- northwind rod -->
+	<wand id="8921" mana="151" level="151" event="script" value="wands.lua"> <!-- wand of draconia -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="2181" level="167" unproperly="1" event="function" value="default"/> <!-- terra rod -->
+	<wand id="2189" mana="225" level="225" event="script" value="wands.lua"> <!-- wand of cosmic energy -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="2183" level="250" unproperly="1" event="function" value="default"/> <!-- hailstorm rod -->
+	<wand id="2187" mana="316" level="316" event="script" value="wands.lua"> <!-- wand of inferno -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="8912" level="349" unproperly="1" event="function" value="default"/> <!-- springsprout rod -->
+	<wand id="8920" mana="423" level="423" event="script" value="wands.lua"> <!-- wand of starstorm -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="8910" level="464" unproperly="1" event="function" value="default"/> <!-- underworld rod -->
+	<wand id="8922" mana="547" level="547" event="script" value="wands.lua"> <!-- wand of voodoo -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="13872" level="597" unproperly="1" event="function" value="default"/> <!-- shimmer rod -->
+	<wand id="13880" mana="688" level="688" event="script" value="wands.lua"> <!-- shimmer wand -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="18412" level="745" unproperly="1" event="function" value="default"/> <!-- glacial rod -->
+	<wand id="13760" mana="845" level="845" event="script" value="wands.lua"> <!-- wand of dimensions -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="18411" level="911" unproperly="1" event="function" value="default"/> <!-- muck rod -->
+	<wand id="18390" mana="1019" level="1019" event="script" value="wands.lua"> <!-- wand of defiance -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<wand id="18409" mana="1111" level="1111" event="script" value="wands.lua"> <!-- wand of everblazing -->
+		<vocation id="4"/>
+		<vocation id="5"/>
+	</wand>
+	<melee id="2416" level="1" unproperly="1" event="function" value="default"/> <!-- crowbar -->
+	<melee id="2401" level="10" unproperly="1" event="function" value="default"/> <!-- staff -->
+	<melee id="2350" level="22" unproperly="1" event="function" value="default"/> <!-- sword hilt -->
+	<melee id="2426" level="40" unproperly="1" event="function" value="default"/> <!-- naginata -->
+	<melee id="2453" level="62" unproperly="1" event="function" value="default"/> <!-- arcane staff -->
+	<melee id="3961" level="90" unproperly="1" event="function" value="default"/> <!-- lich staff -->
+	<melee id="3966" level="122" unproperly="1" event="function" value="default"/> <!-- banana staff -->
+	<melee id="7379" level="160" unproperly="1" event="function" value="default"/> <!-- brutetamer's staff -->
+	<melee id="7387" level="202" unproperly="1" event="function" value="default"/> <!-- diamond sceptre -->
+	<melee id="7410" level="250" unproperly="1" event="function" value="default"/> <!-- queen's sceptre -->
+	<melee id="7424" level="302" unproperly="1" event="function" value="default"/> <!-- lunar staff -->
+	<melee id="7430" level="360" unproperly="1" event="function" value="default"/> <!-- dragonbone staff -->
+	<melee id="2425" level="422" unproperly="1" event="function" value="default"/> <!-- obsidian lance -->
+	<melee id="2436" level="489" unproperly="1" event="function" value="default"/> <!-- skull staff -->
+	<melee id="7428" level="562" unproperly="1" event="function" value="default"/> <!-- bonebreaker -->
+	<melee id="7426" level="640" unproperly="1" event="function" value="default"/> <!-- amber staff -->
+	<melee id="7429" level="722" unproperly="1" event="function" value="default"/> <!-- blessed sceptre -->
+	<melee id="2414" level="810" unproperly="1" event="function" value="default"/> <!-- dragon lance -->
+	<melee id="3964" level="902" unproperly="1" event="function" value="default"/> <!-- ripper lance -->
+	<melee id="11323" level="1000" unproperly="1" event="function" value="default"/> <!-- Zaoan halberd -->
+	<melee id="11305" level="1102" unproperly="1" event="function" value="default"/> <!-- drakinata -->
+	<melee id="9928" level="1" unproperly="1" event="function" value="default"/> <!-- leaf legs -->
+	<melee id="3983" level="10" unproperly="1" event="function" value="default"/> <!-- bast skirt -->
+	<melee id="5918" level="22" unproperly="1" event="function" value="default"/> <!-- pirate knee breeches -->
+	<melee id="2649" level="40" unproperly="1" event="function" value="default"/> <!-- leather legs -->
+	<melee id="2468" level="62" unproperly="1" event="function" value="default"/> <!-- studded legs -->
+	<melee id="7730" level="90" unproperly="1" event="function" value="default"/> <!-- blue legs -->
+	<melee id="2648" level="122" unproperly="1" event="function" value="default"/> <!-- chain legs -->
+	<melee id="2478" level="160" unproperly="1" event="function" value="default"/> <!-- brass legs -->
+	<melee id="8923" level="202" unproperly="1" event="function" value="default"/> <!-- ranger legs -->
+	<melee id="2469" level="250" unproperly="1" event="function" value="default"/> <!-- dragon scale legs -->
+	<melee id="7896" level="302" unproperly="1" event="function" value="default"/> <!-- glacier kilt -->
+	<melee id="2647" level="360" unproperly="1" event="function" value="default"/> <!-- plate legs -->
+	<melee id="2504" level="422" unproperly="1" event="function" value="default"/> <!-- dwarven legs -->
+	<melee id="9777" level="489" unproperly="1" event="function" value="default"/> <!-- yalahari leg piece -->
+	<melee id="7885" level="562" unproperly="1" event="function" value="default"/> <!-- terra legs -->
+	<melee id="2507" level="640" unproperly="1" event="function" value="default"/> <!-- elven legs -->
+	<melee id="2477" level="722" unproperly="1" event="function" value="default"/> <!-- knight legs -->
+	<melee id="7895" level="810" unproperly="1" event="function" value="default"/> <!-- lightning legs -->
+	<melee id="2488" level="902" unproperly="1" event="function" value="default"/> <!-- crown legs -->
+	<melee id="2470" level="1000" unproperly="1" event="function" value="default"/> <!-- golden legs -->
+	<melee id="7894" level="1102" unproperly="1" event="function" value="default"/> <!-- magma legs -->
+	<melee id="2642" level="1" unproperly="1" event="function" value="default"/> <!-- sandals -->
+	<melee id="7457" level="12" unproperly="1" event="function" value="default"/> <!-- fur boots -->
+	<melee id="9931" level="27" unproperly="1" event="function" value="default"/> <!-- coconut shoes -->
+	<melee id="2641" level="49" unproperly="1" event="function" value="default"/> <!-- patched boots -->
+	<melee id="2643" level="77" unproperly="1" event="function" value="default"/> <!-- leather boots -->
+	<melee id="3982" level="111" unproperly="1" event="function" value="default"/> <!-- crocodile boots -->
+	<melee id="5462" level="151" unproperly="1" event="function" value="default"/> <!-- pirate boots -->
+	<melee id="2195" level="197" unproperly="1" event="function" value="default"/> <!-- boots of haste -->
+	<melee id="7892" level="250" unproperly="1" event="function" value="default"/> <!-- glacier shoes -->
+	<melee id="11118" level="308" unproperly="1" event="function" value="default"/> <!-- dragon scale boots -->
+	<melee id="7886" level="373" unproperly="1" event="function" value="default"/> <!-- terra boots -->
+	<melee id="2645" level="444" unproperly="1" event="function" value="default"/> <!-- steel boots -->
+	<melee id="2646" level="521" unproperly="1" event="function" value="default"/> <!-- golden boots -->
+	<melee id="11117" level="604" unproperly="1" event="function" value="default"/> <!-- crystal boots -->
+	<melee id="7893" level="694" unproperly="1" event="function" value="default"/> <!-- lightning boots -->
+	<melee id="18406" level="790" unproperly="1" event="function" value="default"/> <!-- prismatic boots -->
+	<melee id="12646" level="891" unproperly="1" event="function" value="default"/> <!-- draken boots -->
+	<melee id="11240" level="1000" unproperly="1" event="function" value="default"/> <!-- guardian boots -->
+	<melee id="15410" level="1114" unproperly="1" event="function" value="default"/> <!-- depth calcei -->
+	<distance id="2455" level="1" unproperly="1" event="function" value="default"/> <!-- crossbow -->
+	<distance id="5947" level="40" unproperly="1" event="function" value="default"/> <!-- Elane's crossbow -->
+	<distance id="5803" level="90" unproperly="1" event="function" value="default"/> <!-- arbalest -->
+	<distance id="8850" level="160" unproperly="1" event="function" value="default"/> <!-- chain bolter -->
+	<distance id="8852" level="250" unproperly="1" event="function" value="default"/> <!-- the devileye -->
+	<distance id="8849" level="360" unproperly="1" event="function" value="default"/> <!-- modified crossbow -->
+	<distance id="8853" level="489" unproperly="1" event="function" value="default"/> <!-- the ironworker -->
+	<distance id="18453" level="640" unproperly="1" event="function" value="default"/> <!-- crystal crossbow -->
+	<distance id="15644" level="810" unproperly="1" event="function" value="default"/> <!-- ornate crossbow -->
+	<distance id="16111" level="1000" unproperly="1" event="function" value="default"/> <!-- thorn spitter -->
+	<distance id="8851" level="1210" unproperly="1" event="function" value="default"/> <!-- royal crossbow -->
+	<distance id="2456" level="1" unproperly="1" event="function" value="default"/> <!-- bow -->
+	<distance id="7438" level="81" unproperly="1" event="function" value="default"/> <!-- elvish bow -->
+	<distance id="8856" level="183" unproperly="1" event="function" value="default"/> <!-- Yol's bow -->
+	<distance id="18454" level="326" unproperly="1" event="function" value="default"/> <!-- mycological bow -->
+	<distance id="8855" level="510" unproperly="1" event="function" value="default"/> <!-- composite hornbow -->
+	<distance id="8857" level="734" unproperly="1" event="function" value="default"/> <!-- silkweaver bow -->
+	<distance id="15643" level="1000" unproperly="1" event="function" value="default"/> <!-- hive bow -->
+	<distance id="8858" level="1306" unproperly="1" event="function" value="default"/> <!-- Elethriel's elemental bow -->
+	<distance id="2543" level="1" event="function" value="default"/> <!-- bolt -->
+	<distance id="2547" level="111" event="function" value="default"/> <!-- power bolt -->
+	<distance id="6529" level="250" event="function" value="default"/> <!-- infernal bolt -->
+	<distance id="7363" level="444" event="function" value="default"/> <!-- piercing bolt -->
+	<distance id="15649" level="694" event="function" value="default"/> <!-- vortex bolt -->
+	<distance id="18436" level="1000" event="function" value="default"/> <!-- drill bolt -->
+	<distance id="18435" level="1361" event="function" value="default"/> <!-- prismatic bolt -->
+	<distance id="2544" level="1" event="function" value="default"/> <!-- arrow -->
+	<distance id="7364" level="160" event="function" value="default"/> <!-- sniper arrow -->
+	<distance id="7365" level="360" event="function" value="default"/> <!-- onyx arrow -->
+	<distance id="15648" level="640" event="function" value="default"/> <!-- tarsal arrow -->
+	<melee id="2352" level="1000" unproperly="1" event="function" value="default"/> <!-- crystal arrow -->
+	<distance id="18304" level="1440" event="function" value="default"/> <!-- crystalline arrow -->
+</weapons>

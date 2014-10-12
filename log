@@ -11,55 +11,8 @@ Visit our forum for updates, support, and resources: http://otland.net/.
 >> Loading items
 >> Loading script systems
 [Warning - Weapons::registerEvent] Duplicate registered item with id: 10318
-[Warning - Event::checkScript] Can not load script: scripts/burst_arrow.lua
-cannot open data/weapons/scripts/burst_arrow.lua: No such file or directory
 >> Loading monsters
 >> Loading outfits
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
-[Warning - Outfits::loadFromXml] Missing outfit type.
 >> Checking world type... PVP
 >> Loading map
 > Map size: 4096x4096.
@@ -456,12 +409,133 @@ cannot open data/weapons/scripts/burst_arrow.lua: No such file or directory
 [Warning - IOMap::loadMap] Moveable item with ID: 7435, in house: 1, at position [x: 2502, y: 2419, z: 7].
 [Warning - IOMap::loadMap] Moveable item with ID: 7433, in house: 1, at position [x: 2503, y: 2419, z: 7].
 Duplicate uniqueId 1000
-> Map loading time: 3.642 seconds.
+> Map loading time: 3.54 seconds.
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #3 - House id: 62
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #4 - House id: 63
 [Warning - Houses::loadHousesXML] House entry not set - Name: JCPenis Den #5 - House id: 64
+> Loaded house items in: 0 s
 >> Initializing gamestate
 >> Loaded all modules, server starting up...
 > Warning: The Forgotten Server has been executed as root user, please consider running it as a normal user.
 >> Depths Server Online!
 
+ Tim has logged in.
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>
+
+Lua Script Error: [Weapon Interface] 
+data/weapons/scripts/custom/wands.lua:onUseWeapon
+data/weapons/scripts/custom/wands.lua:126: attempt to call global 'getPlayerWeapon' (a nil value)
+stack traceback:
+	[C]: in function 'getPlayerWeapon'
+	data/weapons/scripts/custom/wands.lua:126: in function <data/weapons/scripts/custom/wands.lua:125>

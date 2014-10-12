@@ -70,7 +70,7 @@ setCombatParam(default, COMBAT_PARAM_AGGRESSIVE, true)
 
 function getDamage(cid, level, maglevel)
 	local wand = getWand(cid)
-	local attack = getItemAttack(wand) or 0
+	local attack = getItemAttack(wand:getUniqueId()) or 0
 	local maximum =	0.085 * 1 * attack * maglevel + level/5 + attack
 	return maximum
 end
@@ -124,23 +124,22 @@ setCombatCallback(default, CALLBACK_PARAM_LEVELMAGICVALUE, "defaultValues")
 
 function onUseWeapon(cid, var)
 	local wep = getPlayerWeapon(cid) or 0
-	local info = getItemInfo(wep.itemid)
-	--print (info.shootType)
-	if (info.shootType == CONST_ANI_POISON) then
+
+	if (wep:getAttribute('shootType') == CONST_ANI_POISON) then
 		return doCombat(cid, poison, var)
-	elseif (info.shootType == CONST_ANI_ENERGY) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_ENERGY) then
 		return doCombat(cid, energy, var)	
-	elseif (info.shootType == CONST_ANI_FIRE) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_FIRE) then
 		return doCombat(cid, fire, var)	
-	elseif (info.shootType == CONST_ANI_ICE) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_ICE) then
 		return doCombat(cid, ice, var)
-	elseif (info.shootType == CONST_ANI_SMALLICE) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_SMALLICE) then
 		return doCombat(cid, smallice, var)
-	elseif (info.shootType == CONST_ANI_DEATH) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_DEATH) then
 		return doCombat(cid, death, var)
-	elseif (info.shootType == CONST_ANI_EARTH) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_EARTH) then
 		return doCombat(cid, earth, var)
-	elseif (info.shootType == CONST_ANI_SMALLEARTH) then
+	elseif (wep:getAttribute('shootType') == CONST_ANI_SMALLEARTH) then
 		return doCombat(cid, smallearth, var)
 	else
 		return doCombat(cid, default, var)
