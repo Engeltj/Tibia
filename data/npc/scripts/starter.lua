@@ -173,7 +173,7 @@ function creatureSayCallback(cid, type, msg)
 		selfSay("Ok then, what would you like as your primary weapon class? sword, club, or axe.", cid)
 		talkState[talkUser] = 1
 	elseif (msgcontains(msg, 'yes')) or (msgcontains(msg, 'tutorial')) then
-		doCreatureSetNoMove(cid, true)
+		mayNotMove(cid, true)
 		doCreatureSetStorage(cid, 1701, getPlayerGroupId(cid))
 		setPlayerStorageValue(cid, 15903, 0)
 		doPlayerSetGroupId(cid, 2)

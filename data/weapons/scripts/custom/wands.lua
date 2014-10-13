@@ -13,6 +13,7 @@ wandAnim ={
 	[18411] = CONST_ANI_SMALLEARTH,
 	[18412] = CONST_ANI_SMALLICE,
 	[2181] = CONST_ANI_SMALLEARTH,
+	[2182] = CONST_ANI_POISON,
 	[2183] = CONST_ANI_SMALLICE,
 	[2185] = CONST_ANI_DEATH,
 	[2186] = CONST_ANI_SMALLICE,
@@ -103,39 +104,39 @@ end
 
 function posionValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function energyValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function deathValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function earthValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function fireValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function iceValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function smalliceValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function holyValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 function defaultValues(cid, level, maglevel)
 	local max_dmg = getDamage(cid, level, maglevel)
-	return 0,max_dmg*0.75*-1
+	return 1,max_dmg*0.75*-1
 end
 
 setCombatCallback(poison, CALLBACK_PARAM_LEVELMAGICVALUE, "posionValues")
@@ -150,8 +151,6 @@ setCombatCallback(default, CALLBACK_PARAM_LEVELMAGICVALUE, "defaultValues")
 
 function onUseWeapon(cid, var)
 	local wep = getPlayerWeapon(cid) or 0
-	print('Wep type: ' .. tostring(wep:getId()) )
-	print('Shoot type2: ' .. tostring(wandAnim[wep:getId()]))
 	if (wandAnim[wep:getId()] == CONST_ANI_POISON) then
 		return doCombat(cid, poison, var)
 	elseif (wandAnim[wep:getId()] == CONST_ANI_ENERGY) then

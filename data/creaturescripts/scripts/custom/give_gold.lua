@@ -1,5 +1,13 @@
-function onKill(cid, target, damage, flags)
-	if not isPlayer(target) and not isPlayer(getCreatureMaster(target)) and isPlayer(cid) then
+function onKill(cid, target, lastHit)
+	local creature = Creature(target)
+	if not creature:isPlayer() and (creature:getMaster() == nil) and Creature(cid):isPlayer() then
+		local damage = 0
+		for id, dmg in pairs(creature:getDamageMap()) do
+			if id == cid then
+				damage = dmg.total
+				break
+			end
+		end=
 		local health = damage / 25
 		health = math.ceil(health)
 		if (health <= 0) then

@@ -1,21 +1,20 @@
 function onSay(cid, words, param)
 	local found = 0
+	local player = Player(cid)
 	if param ~= "" then
 		for i, dst in ipairs(waypoints) do
 			if string.lower(param) == string.lower(dst.name) then
 				local storage = 20000+i-1
-				local player_pos = getPlayerPosition(cid)
-				player_pos.stackpos = 0
-				local tile = getThingFromPosition(player_pos)
-				if getPlayerStorageValue(cid, storage) == 1 then
-					if getItemAttribute(tile.uid, "aid") == 2200 then
+				local tile = Tile(player:getPosition())
+				if player:getStorageValue(storage) == 1 then
+					if tile:getGround():getActionId()== 2200 then
 						local pos = {x=dst.x,y=dst.y,z=dst.z,stackpos=255}
-						doSendMagicEffect(getPlayerPosition(cid), 2)
+						doSendMagicEffect(getPlayerPosition(cid), CONST_ME_POFF)
 						doTeleportThing(cid, pos, false)
 						doSendMagicEffect(getPlayerPosition(cid), 12)
 					else
 						doPlayerSendCancel(cid, "You must stand on a waypoint tile first.")
-						doSendMagicEffect(getPlayerPosition(cid), 2)
+						doSendMagicEffect(getPlayerPosition(cid), CONST_ME_POFF)
 						return true
 					end
 				else

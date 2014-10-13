@@ -28,7 +28,7 @@ end
 function recursive(container, level)
 	local containerSize = getContainerSize(container)
 	for count = 0, containerSize-1 do
-		local bodycontainer = getContainerItem(container, count)
+		local bodycontainer = Item(getContainerItem(container, count).uid)
 		local i = math.random(1,100)
 		local attr_atk = 0
 		local attr_def = 0
@@ -47,23 +47,21 @@ function recursive(container, level)
 		end
 		
 		
-		if isWeapon(bodycontainer.uid) or isBow(bodycontainer.uid) or isWand(bodycontainer.uid) then
-			if isBow(bodycontainer.uid) or isWand(bodycontainer.uid) then --getItemAttribute(bodycontainer.uid, "slottype") == "two-handed" then
-				doItemSetAttribute(bodycontainer.uid, "attack", math.ceil(level*attr_atk/100))
-			else
-				doItemSetAttribute(bodycontainer.uid, "attack", math.ceil(level*attr_atk/100))
-				if getItemAttribute(bodycontainer.uid, "slottype") == "two-handed" then
-					doItemSetAttribute(bodycontainer.uid, "defense", math.ceil(level*attr_def/100)*2)
+		if isWeapon(bodycontainer) or isBow(bodycontainer) or isWand(bodycontainer) then
+			bodycontainer:setAttribute("attack", math.ceil(level*attr_atk/100))
+			if not (isBow(bodycontainer) or isWand(bodycontainer)) then --getItemAttribute(bodycontainer.uid, "slottype") == "two-handed" then
+				if getItemAttribute(bodycontainer, "slottype") == "two-handed" then
+					bodycontainer:setAttribute("defense",  math.ceil(level*attr_def/100)*2)
 				else
-					doItemSetAttribute(bodycontainer.uid, "defense", math.ceil(level*attr_def/100))
+					bodycontainer:setAttribute("defense",  math.ceil(level*attr_def/100))
 				end
 			end
-		elseif isShield(bodycontainer.uid) then
-			doItemSetAttribute(bodycontainer.uid, "defense", math.ceil(level*attr_def/100))
+		elseif isShield(bodycontainer) then
+			bodycontainer:setAttribute("defense",  math.ceil(level*attr_def/100))
 		elseif isArmor(bodycontainer) then
-			doItemSetAttribute(bodycontainer.uid, "armor", math.ceil(level*attr_def/100))
-		elseif isItemContainer(bodycontainer.itemid) == true then
-			recursive(bodycontainer.uid, level)
+			bodycontainer:setAttribute("armor",  math.ceil(level*attr_def/100))
+		elseif isItemContainer(bodycontainer:getId()) == true then
+			recursive(bodycontainer, level)
 		end
 	end
 end
@@ -100,15 +98,16 @@ function onKill(cid, target, lastHit)
 		local target_name = getCreatureName(target)
 		local target_pos = getCreaturePosition(target)
 		local player_pos = getCreaturePosition(cid)
-		local level = tonumber(getCreatureMaxHealth(target) / 25)
-		local info = getMonsterInfo(getCreatureName(target))
+		local creature = Creature(target)
+		local level = tonumber(creature:getMaxHealth() / 25)
+		local info = MonsterType(creature:getName())
 		local rand = math.random(250)
 		--doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, )
 		--doCreatureSetNoMove(cid, true)
 		if (rand == 150) then
-			addEvent(createEssence, 100, cid, target_name, target_pos, info.lookCorpse, 1)
+			addEvent(createEssence, 100, cid, target_name, target_pos, info:getCorpseId(), 1)
 		else
-			addEvent(modifyItems, 100, cid, player_pos, target_pos, info.lookCorpse, level, 1)
+			addEvent(modifyItems, 100, cid, player_pos, target_pos, info:getCorpseId(), level, 1)
 		end
 	end
 	return true

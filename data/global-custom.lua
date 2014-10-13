@@ -249,35 +249,32 @@ end
 red = {lookType = 128, lookHead = 113,lookBody = 113,lookLegs = 113,lookFeet = 95,lookAddons = 0} -- it
 blue = {lookType = 128, lookHead = 88,lookBody = 88,lookLegs = 88,lookFeet = 95,lookAddons = 0} -- not it
 
-function isArmor(uid) -- Function by Mock the bear.
-    if (getItemInfo(uid.itemid).armor ~= 0) and (getItemWeaponType(uid.uid) == 0) then
+function isArmor(item)
+    if (item:getAttribute("armor") ~= 0) and (item:getType():getWeaponType() == WEAPON_NONE) then
 		return true
 	end
 	return false
 end
-function isWeapon(uid) -- Function by Mock the bear.
-	uid = uid or 0
-	local f = Item(uid):getType():getWeaponType()
-	if f == 1 or f == 2 or f == 3 then
+function isWeapon(item)
+	local f = item:getType():getWeaponType()
+	if f == WEAPON_SWORD or f == WEAPON_CLUB or f == WEAPON_AXE then
 		return true
 	end
 	return false
 end
-function isBow(uid) -- Function by Mock the bear.
-	uid = uid or 0
-	if Item(uid):getType():getWeaponType() == 4 then
+function isBow(item)
+	if item:getType():getWeaponType() == WEAPON_DIST then
 		return true
 	end
 	return false
 end
-function isShield(uid) -- Function by Mock the bear.
-	uid = uid or 0
-	if Item(uid):getType():getWeaponType() == 5 then
+function isShield(item)
+	if item:getType():getWeaponType() == WEAPON_SHIELD then
 		return true
 	end
 	return false
 end
-function isWand(item) -- Function by Tim
+function isWand(item)
 	if item:getType():getWeaponType() == WEAPON_WAND then
 		return true
 	end

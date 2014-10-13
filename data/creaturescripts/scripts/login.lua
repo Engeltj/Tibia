@@ -4,6 +4,7 @@ function onLogin(cid)
 	local loginStr = "Welcome to " .. configManager.getString(configKeys.SERVER_NAME) .. "!"
 	if player:getLastLoginSaved() <= 0 then
 		loginStr = loginStr .. " Please choose your outfit."
+		player:teleportTo({x=2085,y=2213,z=7})
 		player:sendOutfitWindow()
 	else
 		if loginStr ~= "" then
@@ -17,13 +18,13 @@ function onLogin(cid)
 
 
 	--Custom
-	player:registerEvent(cid, "UpgradeItems")
-	player:registerEvent(cid, "onAdvancePlayer")
-	player:registerEvent(cid, "GiveGold")
-	player:registerEvent(cid, "ModifyAttr")
-	player:registerEvent(cid, "QuestsKill")
+	player:registerEvent("UpgradeItems")
+	player:registerEvent("onAdvancePlayer")
+	player:registerEvent("GiveGold")
+	player:registerEvent("ModifyAttr")
+	player:registerEvent("QuestsKill")
 	--player:registerEvent("Dota")
-	player:registerEvent(cid, "DeathReturn")
+	player:registerEvent("DeathReturn")
 	player:registerEvent("StealShop")
 	player:registerEvent("FirstWeapon")
 	player:registerEvent("Interest")

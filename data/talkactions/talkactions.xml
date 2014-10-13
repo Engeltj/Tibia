@@ -6,7 +6,7 @@
 	<talkaction words="/test" access="0" script="custom/test.lua"/>
 	<talkaction words="/mounts" access="0" script="custom/mounts.lua"/>
 	<talkaction words="!top" script="custom/highscore.lua"/>
-	<talkaction words="!travel" script="custom/waypoints.lua"/>
+	<talkaction words="!travel" separator=" " script="custom/waypoints.lua"/>
 	<talkaction words="!bail" script="custom/bounty.lua"/>
 	
 	<talkaction words="!outfit" script="custom/outfit.lua"/>

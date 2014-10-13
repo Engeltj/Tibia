@@ -2203,47 +2203,47 @@
 		<attribute key="slotType" value="ring" />
 	</item>
 	<item id="2180" name="the orb of nature" />
-	<item id="2181" article="a" name="terra rod">
+	<item id="2181" article="a" name="terra wand">
 		<attribute key="description" value="Small stones are flying from its tip." />
 		<attribute key="weight" value="2500" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="attack" value="167"/>
+		<attribute key="attack" value="186"/>
 		<attribute key="range" value="3" />
 	</item>
-	<item id="2182" article="a" name="snakebite rod">
+	<item id="2182" article="a" name="snakebite wand">
 		<attribute key="description" value="It seems to twitch and quiver as if trying to escape your grip." />
 		<attribute key="weight" value="1900" />
 		<attribute key="weaponType" value="wand" />
-		<attribute key="shootType" value="smallearth" />
-		<attribute key="attack" value="1"/>
+		<attribute key="shootType" value="poison" />
+		<attribute key="attack" value="20"/>
 		<attribute key="range" value="3" />
 	</item>
-	<item id="2183" article="a" name="hailstorm rod">
+	<item id="2183" article="a" name="hailstorm wand">
 		<attribute key="description" value="It grants you the power of striking your foes with furious hailstorms." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="attack" value="250"/>
+		<attribute key="attack" value="269"/>
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2184" article="a" name="crystal wand">
 		<attribute key="weight" value="2800" />
 	</item>
-	<item id="2185" article="a" name="necrotic rod">
+	<item id="2185" article="a" name="necrotic wand">
 		<attribute key="description" value="It was brought up from hell to deliver death." />
 		<attribute key="weight" value="2300" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="attack" value="51"/>
+		<attribute key="attack" value="70"/>
 		<attribute key="range" value="3" />
 	</item>
-	<item id="2186" article="a" name="moonlight rod">
+	<item id="2186" article="a" name="moonlight wand">
 		<attribute key="description" value="Icecold rays of moonlight shimmer on its tip." />
 		<attribute key="weight" value="2100" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="attack" value="18"/>
+		<attribute key="attack" value="37"/>
 		<attribute key="range" value="3" />
 	</item>
 	<item id="2187" article="a" name="wand of inferno">
@@ -16008,28 +16008,28 @@
 		<attribute key="manaGain" value="4" />
 		<attribute key="manaTicks" value="3000" />
 	</item>
-	<item id="8910" article="an" name="underworld rod">
-		<attribute key="description" value="No one knows which hell this unholy rod comes from." />
+	<item id="8910" article="an" name="underworld wand">
+		<attribute key="description" value="No one knows which hell this unholy wand comes from." />
 		<attribute key="weight" value="2900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="death" />
-		<attribute key="attack" value="464"/>
+		<attribute key="attack" value="483"/>
 		<attribute key="range" value="3" />
 	</item>
-	<item id="8911" article="a" name="northwind rod">
+	<item id="8911" article="a" name="northwind wand">
 		<attribute key="description" value="It was made by one of the shamans in Svargrond and symbolises an icy mammoth." />
 		<attribute key="weight" value="2900" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="ice" />
-		<attribute key="attack" value="101"/>
+		<attribute key="attack" value="120"/>
 		<attribute key="range" value="3" />
 	</item>
-	<item id="8912" article="a" name="springsprout rod">
+	<item id="8912" article="a" name="springsprout wand">
 		<attribute key="description" value="It is filled with the energy of growing plants." />
 		<attribute key="weight" value="2700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="attack" value="349"/>
+		<attribute key="attack" value="368"/>
 		<attribute key="range" value="3" />
 	</item>
 	<item fromid="8913" toid="8917" name="earth" />
@@ -22580,12 +22580,12 @@
 		<attribute key="duration" value="604800" />
 		<attribute key="showduration" value="0" />
 	</item>
-	<item id="13872" article="a" name="shimmer rod">
+	<item id="13872" article="a" name="shimmer wand">
 		<attribute key="description" value="It feels cold and smooth." />
 		<attribute key="weight" value="3100" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="attack" value="597"/>
+		<attribute key="attack" value="616"/>
 		<attribute key="range" value="4" />
 	</item>
 	<item id="13873" article="a" name="shimmer bow">
@@ -25172,21 +25172,21 @@
 		<attribute key="showattributes" value="1" />
 		<attribute key="absorbPercentPhysical" value="4" />
 	</item>
-	<item id="18411" article="a" name="muck rod">
+	<item id="18411" article="a" name="muck wand">
 		<attribute key="description" value="A true staff of old, spitting slimy orbs." />
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallearth" />
-		<attribute key="attack" value="911"/>
+		<attribute key="attack" value="930"/>
 		<attribute key="range" value="4" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
-	<item id="18412" article="a" name="glacial rod">
+	<item id="18412" article="a" name="glacial wand">
 		<attribute key="description" value="Hurls the icy essence of the Svargrond glaciers." />
 		<attribute key="weight" value="3700" />
 		<attribute key="weaponType" value="wand" />
 		<attribute key="shootType" value="smallice" />
-		<attribute key="attack" value="745"/>
+		<attribute key="attack" value="764"/>
 		<attribute key="range" value="4" />
 		<attribute key="magiclevelpoints" value="1" />
 	</item>
