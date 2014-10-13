@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 125) Kobold Trickster" namedescription="a kobold trickster" race="blood" experience="7627" speed="458" manacost="1875">
-	<health now="125" max="125"/>
+	<health now="12500" max="12500"/>
 	<look type="296" corpse="6002"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

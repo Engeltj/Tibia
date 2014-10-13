@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <monster name="(Level 40) Centipede" namedescription="a centipede" race="venom" experience="742" speed="180" manacost="600">
-	<health now="40" max="40"/>
+	<health now="400" max="400"/>
 	<look type="124" corpse="6050"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

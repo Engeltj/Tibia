@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 51) Blazer" namedescription="a blazer" race="fire" experience="1177" speed="260" manacost="750">
-	<health now="50" max="50"/>
+	<health now="5000" max="5000"/>
 	<look type="49" corpse="8964"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

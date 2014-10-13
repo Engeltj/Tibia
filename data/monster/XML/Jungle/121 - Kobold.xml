@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 121) Kobold" namedescription="a kobold" race="blood" experience="7141" speed="450" manacost="1815">
-	<health now="121" max="121"/>
+	<health now="12100" max="12100"/>
 	<look type="61" corpse="6002"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

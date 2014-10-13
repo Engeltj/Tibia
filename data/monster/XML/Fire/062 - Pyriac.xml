@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 62) Pyriac" namedescription="a pyriac" race="fire" experience="1712" speed="328" manacost="900">
-	<health now="60" max="60"/>
+	<health now="6000" max="6000"/>
 	<look type="489" corpse="17252"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

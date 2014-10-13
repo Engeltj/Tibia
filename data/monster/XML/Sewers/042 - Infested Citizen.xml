@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 42) Infested Citizen" namedescription="a infested citizen" race="venom" experience="821" speed="230" manacost="630">
-	<health now="42" max="42"/>
+	<health now="4200" max="4200"/>
 	<look type="299" corpse="8951"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 45) Crab" namedescription="a crab" race="blood" experience="947" speed="298" manacost="675">
-	<health now="45" max="45"/>
+	<health now="450" max="450"/>
 	<look type="112" corpse="6039"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

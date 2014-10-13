@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 85) Restless Soul" namedescription="a restless soul" race="blood" experience="3487" speed="378" manacost="1275">
-	<health now="85" max="85"/>
+	<health now="850" max="850"/>
 	<look type="78" corpse="6019"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

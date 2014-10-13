@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 19) Enraged Boar" namedescription="a enraged boar" race="blood" experience="154" speed="346" manacost="285">
-	<health now="19" max="19"/>
+	<health now="190" max="190"/>
 	<look type="380" corpse="13308"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

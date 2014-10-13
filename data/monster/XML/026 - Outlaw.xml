@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 26) Outlaw" nameDescription="an outlaw" race="blood" experience="301" speed="260" manacost="390">
-	<health now="26" max="26"/>
+	<health now="260" max="260"/>
 	<look type="137" head="113" body="120" legs="114" feet="132" corpse="6081"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

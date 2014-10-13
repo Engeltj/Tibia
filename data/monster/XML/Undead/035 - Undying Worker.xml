@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 35) Undying Worker" namedescription="a undying worker" race="blood" experience="562" speed="278" manacost="525">
-	<health now="35" max="35"/>
+	<health now="3500" max="3500"/>
 	<look type="33" corpse="5972"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

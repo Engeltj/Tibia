@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 127) Kobold Uhr" namedescription="a kobold uhr" race="blood" experience="7876" speed="462" manacost="1905">
-	<health now="127" max="127"/>
+	<health now="1270" max="1270"/>
 	<look type="297" corpse="6002"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

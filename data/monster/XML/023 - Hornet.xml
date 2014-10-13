@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 23) Hornet" nameDescription="a hornet" race="venom" experience="232" speed="146" manacost="345">
-	<health now="23" max="23"/>
+	<health now="230" max="230"/>
 	<look type="44" corpse="5989"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

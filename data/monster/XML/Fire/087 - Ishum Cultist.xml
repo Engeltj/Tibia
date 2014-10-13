@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 87) Ishum Cultist" namedescription="a ishum cultist" race="blood" experience="3656" speed="382" manacost="1305">
-	<health now="87" max="87"/>
+	<health now="8700" max="8700"/>
 	<look type="324" head="0" body="38" legs="132" feet="15" addons="2" corpse="6081"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 86) Mine Keeper" namedescription="a mine keeper" race="blood" experience="3571" speed="380" manacost="1290">
-	<health now="86" max="86"/>
+	<health now="860" max="860"/>
 	<look type="496" corpse="17416"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

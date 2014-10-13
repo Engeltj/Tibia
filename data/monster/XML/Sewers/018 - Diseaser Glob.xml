@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 18) Diseaser Glob" namedescription="a diseaser glob" race="venom" experience="137" speed="140" manacost="270">
-	<health now="18" max="18"/>
+	<health now="1800" max="1800"/>
 	<look type="19" corpse="1496"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

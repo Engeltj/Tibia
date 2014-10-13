@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 75) Burrower" namedescription="a burrower" race="undead" experience="2702" speed="458" manacost="1125">
-	<health now="75" max="75"/>
+	<health now="7500" max="7500"/>
 	<look type="398" corpse="13501"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 32) Wretched Hound" namedescription="a wretched hound" race="blood" experience="466" speed="272" manacost="480">
-	<health now="32" max="32"/>
+	<health now="3200" max="3200"/>
 	<look type="101" corpse="6030"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

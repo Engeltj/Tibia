@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 13) Chimera" namedescription="a chimera" race="blood" experience="67" speed="234" manacost="195">
-	<health now="13" max="13"/>
+	<health now="1300" max="1300"/>
 	<look type="41" corpse="5986"/> --lion
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

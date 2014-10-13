@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 90) Dietzt" nameDescription="a dietzt" race="blood" experience="3917" speed="388" manacost="1350">
-	<health now="90" max="90"/>
+	<health now="900" max="900"/>
 	<look type="95" corpse="6027"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 28) Siclee" namedescription="a siclee" race="blood" experience="352" speed="264" manacost="420">
-	<health now="28" max="28"/>
+	<health now="280" max="280"/>
 	<look type="430" head="114" body="114" legs="76" feet="0" addons="3" corpse="6080"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

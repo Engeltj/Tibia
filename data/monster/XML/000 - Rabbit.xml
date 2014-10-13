@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 0) Rabbit" nameDescription="a rabbit" race="blood" experience="0" speed="180" manacost="220">
-	<health now="2" max="2"/>
+	<health now="20" max="20"/>
 	<look type="74" corpse="6017"/>
 	<targetchange interval="5000" chance="20"/>
 	<strategy attack="100" defense="0"/>

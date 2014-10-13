@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 155) Mutae" namedescription="a mutae" race="blood" experience="11782" speed="518" manacost="2325">
-	<health now="155" max="155"/>
+	<health now="1550" max="1550"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

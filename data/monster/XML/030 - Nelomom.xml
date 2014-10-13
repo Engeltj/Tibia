@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 30) Nelomom" nameDescription="a nelomom" race="blood" experience="407" speed="160" manacost="450">
-	<health now="30" max="30"/>
+	<health now="300" max="300"/>
 	<look type="116" corpse="6043"/>
 	<targetchange interval="2000" chance="9"/>
 	<strategy attack="100" defense="0"/>

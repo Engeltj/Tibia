@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 3) Lizard Guardian" namedescription="a (tier 3) lizard guardian" race="blood" experience="0" speed="320" manacost="2025">
-	<health now="135" max="135"/>
+	<health now="13500" max="13500"/>
 	<look type="113" corpse="4251"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

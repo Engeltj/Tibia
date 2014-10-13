@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 27) Dipleurula" namedescription="a dipleurula" race="blood" experience="326" speed="262" manacost="405">
-	<health now="27" max="27"/>
+	<health now="2700" max="2700"/>
 	<look type="82" corpse="6023"/> --larva
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

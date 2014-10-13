@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 60) Ryhally Scout" namedescription="a ryhally scout" race="blood" experience="1712" speed="528" manacost="900">
-	<health now="60" max="60"/>
+	<health now="6000" max="6000"/>
 	<look type="146" head="0" body="0" legs="97" feet="0" addons="2" mount="405" corpse="6080"/>
 	<targetchange interval="2000" chance="8"/>
 	<strategy attack="100" defense="0"/>

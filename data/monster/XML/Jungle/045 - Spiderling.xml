@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 45) Spiderling" namedescription="a spiderling" race="venom" experience="947" speed="298" manacost="675">
-	<health now="45" max="45"/>
+	<health now="4500" max="4500"/>
 	<look type="30" corpse="5961"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

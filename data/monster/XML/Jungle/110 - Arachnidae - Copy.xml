@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 113) Arachnidae" namedescription="a arachnidae" race="blood" experience="6217" speed="434" manacost="1695">
-	<health now="113" max="113"/>
+	<health now="11300" max="11300"/>
 	<look type="219" corpse="6060"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

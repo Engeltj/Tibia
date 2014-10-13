@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Villager" namedescription="a villager" race="blood" experience="0" speed="274" manacost="0">
-	<health now="50" max="50"/>
+	<health now="500" max="500"/>
 	<look type="128" head="78" body="69" legs="58" feet="76" addons="0" corpse="5960"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

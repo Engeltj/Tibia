@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Hellspawn" nameDescription="a hellspawn" experience="2550" speed="360" race="blood" manacost="0">
-	<health now="3500" max="3500"/>
+	<health now="350000" max="350000"/>
 	<strategy attack="100" defense="0"/>
 	<targetchange speed="0" chance="8"/>
 	<look type="322" corpse="9923"/>

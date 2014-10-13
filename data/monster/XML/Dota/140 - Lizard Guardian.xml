@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 4) Lizard Guardian" namedescription="a (tier 4) lizard guardian" race="blood" experience="0" speed="320" manacost="2100">
-	<health now="140" max="140"/>
+	<health now="14000" max="14000"/>
 	<look type="337" corpse="11272"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

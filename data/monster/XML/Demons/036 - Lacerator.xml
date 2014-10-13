@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 36) Lacerator" namedescription="a lacerator" race="blood" experience="596" speed="480" manacost="540">
-	<health now="36" max="36"/>
+	<health now="3600" max="3600"/>
 	<look type="321" corpse="9919"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

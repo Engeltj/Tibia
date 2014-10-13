@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 65) Prickley" namedescription="a prickley" race="blood" experience="2017" speed="338" manacost="975">
-	<health now="65" max="65"/>
+	<health now="650" max="650"/>
 	<look type="198" corpse="6073"/>	
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

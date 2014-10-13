@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 20) Skeleton" namedescription="a skeleton" race="blood" experience="172" speed="248" manacost="300">
-	<health now="20" max="20"/>
+	<health now="2000" max="2000"/>
 	<look type="33" corpse="5972"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

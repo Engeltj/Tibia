@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 36) Vyln Elementalist" namedescription="a vyln elementalist" race="blood" experience="596" speed="280" manacost="540">
-	<health now="36" max="36"/>
+	<health now="360" max="360"/>
 	<look type="282" corpse="7930"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

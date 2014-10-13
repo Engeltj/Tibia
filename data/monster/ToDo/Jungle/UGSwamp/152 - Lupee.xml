@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 152) Lupee" namedescription="a lupee" race="blood" experience="11326" speed="512" manacost="2280">
-	<health now="152" max="152"/>
+	<health now="1520" max="1520"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Wasp" nameDescription="a wasp" race="venom" experience="25" speed="460" manacost="280">
-	<health now="35" max="35"/>
+	<health now="350" max="350"/>
 	<look type="44" corpse="5989"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

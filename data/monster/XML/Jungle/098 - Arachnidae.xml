@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 98) Arachnidae" namedescription="a arachnidae" race="venom" experience="4657" speed="404" manacost="1470">
-	<health now="98" max="98"/>
+	<health now="9800" max="9800"/>
 	<look type="219" corpse="6060"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

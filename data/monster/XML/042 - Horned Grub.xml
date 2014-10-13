@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 42) Horned Grub" namedescription="a horned grub" race="blood" experience="821" speed="292" manacost="630">
-	<health now="42" max="42"/>
+	<health now="420" max="420"/>
 	<look type="192" corpse="6069"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

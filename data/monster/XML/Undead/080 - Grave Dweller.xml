@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 80) Grave Dweller" namedescription="a grave dweller" race="blood" experience="3082" speed="368" manacost="1200">
-	<health now="80" max="80"/>
+	<health now="8000" max="8000"/>
 	<look type="322" corpse="9923"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

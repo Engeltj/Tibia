@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 65) Ryhally Chief" namedescription="a ryhally chief" race="blood" experience="2017" speed="538" manacost="975">
-	<health now="65" max="65"/>
+	<health now="6500" max="6500"/>
 	<look type="146" head="98" body="57" legs="132" feet="116" addons="3" mount="406" corpse="6080"/>
 	<targetchange interval="2000" chance="15"/>
 	<strategy attack="100" defense="0"/>

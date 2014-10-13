@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 20) Dheister" nameDescription="a dheister" race="blood" experience="172" speed="140" manacost="300">
-	<health now="20" max="20"/>
+	<health now="200" max="200"/>
 	<look type="25" corpse="5969"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

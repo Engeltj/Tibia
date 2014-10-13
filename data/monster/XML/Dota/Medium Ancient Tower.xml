@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Medium Ancient Tower" namedescription="a tower" race="blood" speed="0" experience="0" manacost="600000">
-	<health now="700" max="700"/>
+	<health now="70000" max="70000"/>
 	<look typeex="12383" corpse="13972"/>
 	<targetchange interval="2000" chance="50"/>
 	<strategy attack="100" defense="0"/>

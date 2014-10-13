@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 65) Thermidon" namedescription="a thermidon" race="blood" experience="2017" speed="338" manacost="975">
-	<health now="65" max="65"/>
+	<health now="650" max="650"/>
 	<look type="383" corpse="13331"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

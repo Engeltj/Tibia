@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 83) Apprentice of Ishum" namedescription="a apprentice of ishum" race="blood" experience="3322" speed="374" manacost="1245">
-	<health now="83" max="83"/>
+	<health now="8300" max="8300"/>
 	<look type="145" head="94" body="113" legs="114" feet="0" addons="3" corpse="6080"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

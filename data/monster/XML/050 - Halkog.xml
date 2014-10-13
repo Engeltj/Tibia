@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 50) Halkog" nameDescription="a halkog" race="venom" experience="1177" speed="200" manacost="750">
-	<health now="50" max="50"/>
+	<health now="500" max="500"/>
 	<look type="219" corpse="6060"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

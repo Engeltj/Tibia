@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 18) Terremoto" nameDescription="a terremoto" race="venom" experience="137" speed="136" manacost="270">
-	<health now="18" max="18"/>
+	<health now="180" max="180"/>
 	<look type="19" corpse="1496"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

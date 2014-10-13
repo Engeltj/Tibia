@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 80) Sprareing" nameDescription="a sprareing" race="undead" experience="3082" speed="260" manacost="1200">
-	<health now="80" max="80"/>
+	<health now="800" max="800"/>
 	<look type="235" head="20" corpse="6348"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 61) Snap Turtle" namedescription="a snap turtle" race="blood" experience="1771" speed="330" manacost="915">
-	<health now="61" max="61"/>
+	<health now="610" max="610"/>
 	<look type="197" corpse="6072"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

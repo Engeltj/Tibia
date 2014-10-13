@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 87) Mine Warden" namedescription="a mine warden" race="blood" experience="3656" speed="382" manacost="1305">
-	<health now="87" max="87"/>
+	<health now="870" max="870"/>
 	<look type="538" corpse="19967"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

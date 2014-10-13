@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 34) Tortured Soul" namedescription="a tortured soul" race="blood" experience="529" speed="276" manacost="510">
-	<health now="34" max="34"/>
+	<health now="3400" max="3400"/>
 	<look type="232" corpse="6310"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

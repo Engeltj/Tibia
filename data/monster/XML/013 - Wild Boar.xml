@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 13) Wild Boar" namedescription="a wild boar" race="blood" experience="67" speed="234" manacost="195">
-	<health now="13" max="13"/>
+	<health now="130" max="130"/>
 	<look type="380" corpse="13308"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

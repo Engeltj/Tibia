@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 75) Vorld" nameDescription="a vorld" race="venom" experience="2702" speed="250" manacost="1125">
-	<health now="75" max="75"/>
+	<health now="750" max="750"/>
 	<look type="43" corpse="5988"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

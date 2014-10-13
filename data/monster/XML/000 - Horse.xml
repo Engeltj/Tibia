@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 0) Horse" nameDescription="a horse" race="blood" experience="0" speed="150" manacost="260">
-	<health now="750" max="750"/>
+	<health now="7500" max="7500"/>
 	<look type="435" corpse="0"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

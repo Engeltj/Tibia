@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 59) Rezhler" namedescription="a rezhler" race="blood" experience="1654" speed="326" manacost="885">
-	<health now="59" max="59"/>
+	<health now="590" max="590"/>
 	<look type="220" corpse="4323"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

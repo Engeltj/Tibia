@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 47) Pollywog" namedescription="a pollywog" race="blood" experience="1036" speed="302" manacost="705">
-	<health now="47" max="47"/>
+	<health now="470" max="470"/>
 	<look type="222" corpse="6077"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

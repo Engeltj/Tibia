@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 150) Pestile Worm" namedescription="a pestile worm" race="blood" experience="11027" speed="508" manacost="2250">
-	<health now="150" max="150"/>
+	<health now="1500" max="1500"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

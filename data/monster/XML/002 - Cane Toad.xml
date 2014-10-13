@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 2) Cane Toad" nameDescription="a cane toad" race="blood" experience="1" speed="104" manacost="30">
-	<health now="2" max="2"/>
+	<health now="20" max="20"/>
 	<look type="222" corpse="6077"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

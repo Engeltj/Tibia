@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 37) Rogue Guard" namedescription="a rogue guard" race="blood" experience="631" speed="282" manacost="555">
-	<health now="37" max="37"/>
+	<health now="3700" max="3700"/>
 	<look type="542" head="0" body="38" legs="96" feet="79" addons="1" corpse="6080"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

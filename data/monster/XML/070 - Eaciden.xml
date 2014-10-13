@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 70) Eaciden" nameDescription="an eaciden" race="venom" experience="2347" speed="240" manacost="1050">
-	<health now="70" max="70"/>
+	<health now="700" max="700"/>
 	<look type="314" corpse="9962"/>
 	<targetchange interval="5000" chance="0"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 35) Sokovor" nameDescription="a sokovor" race="blood" experience="562" speed="170" manacost="525">
-	<health now="35" max="35"/>
+	<health now="350" max="350"/>
 	<look type="29" corpse="5983"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

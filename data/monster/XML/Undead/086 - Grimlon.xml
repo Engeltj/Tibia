@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 86) Grimlon" namedescription="a grimlon" race="blood" experience="3571" speed="380" manacost="1290">
-	<health now="86" max="86"/>
+	<health now="8600" max="8600"/>
 	<look type="18" corpse="5976"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

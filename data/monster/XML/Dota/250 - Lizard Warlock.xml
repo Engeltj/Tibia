@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 1) Lizard Warlock" namedescription="a lizard warlock" race="blood" experience="30877" speed="708" manacost="3750">
-	<health now="250" max="250"/>
+	<health now="25000" max="25000"/>
 	<look type="364" corpse="12385"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

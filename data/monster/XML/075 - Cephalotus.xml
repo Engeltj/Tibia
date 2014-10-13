@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 75) Cephalotus" namedescription="a cephalotus" race="venom" experience="2702" speed="158" manacost="1125">
-	<health now="75" max="75"/>
+	<health now="750" max="750"/>
 	<look type="120" corpse="6047"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

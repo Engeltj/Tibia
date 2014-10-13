@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 2) Lizard Legion" namedescription="a (tier 2) lizard legion" race="blood" experience="0" speed="320" manacost="3855">
-	<health now="257" max="257"/>
+	<health now="25700" max="25700"/>
 	<look type="343" corpse="11284"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

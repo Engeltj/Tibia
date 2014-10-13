@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 62) Pyro Blazer" namedescription="a pyro blazer" race="blood" experience="1831" speed="332" manacost="930">
-	<health now="62" max="62"/>
+	<health now="6200" max="6200"/>
 	<look type="242" corpse="8964"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

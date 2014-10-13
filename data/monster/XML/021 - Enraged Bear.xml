@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 21) Enraged Bear" namedescription="a enraged bear" race="blood" experience="191" speed="350" manacost="315">
-	<health now="21" max="21"/>
+	<health now="210" max="210"/>
 	<look type="16" corpse="5975"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

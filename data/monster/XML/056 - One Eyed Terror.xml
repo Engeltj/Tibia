@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 56) One Eyed Terror" namedescription="a one eyed terror" race="venom" experience="1486" speed="320" manacost="840">
-	<health now="56" max="56"/>
+	<health now="560" max="560"/>
 	<look type="17" corpse="5992"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

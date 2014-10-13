@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 35) Vyln Berserker" namedescription="a vyln berserker" race="blood" experience="562" speed="278" manacost="525">
-	<health now="35" max="35"/>
+	<health now="350" max="350"/>
 	<look type="281" corpse="7926"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

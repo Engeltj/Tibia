@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 17) Bear" namedescription="a bear" race="blood" experience="121" speed="242" manacost="255">
-	<health now="17" max="17"/>
+	<health now="170" max="170"/>
 	<look type="16" corpse="5975"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

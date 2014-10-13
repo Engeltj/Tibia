@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 40) Huge Waste Glob" namedescription="a huge waste glob" race="venom" experience="742" speed="220" manacost="600">
-	<health now="40" max="40"/>
+	<health now="4000" max="4000"/>
 	<look type="238" corpse="6532"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

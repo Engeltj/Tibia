@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 72) Tezhler" namedescription="a tezhler" race="venom" experience="2486" speed="352" manacost="1080">
-	<health now="72" max="72"/>
+	<health now="720" max="720"/>
 	<look type="241" head="30" corpse="6344"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

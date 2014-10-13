@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 15) Direwolf" namedescription="a direwolf" race="blood" experience="92" speed="288" manacost="225">
-	<health now="15" max="15"/>
+	<health now="150" max="150"/>
 	<look type="3" corpse="6009"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

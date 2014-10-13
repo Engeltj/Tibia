@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 1) Lizard Necromancer" namedescription="a lizard necromancer" race="blood" experience="7627" speed="458" manacost="1875">
-	<health now="125" max="125"/>
+	<health now="12500" max="12500"/>
 	<look type="339" corpse="11280"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

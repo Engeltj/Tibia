@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 24) Lead Waste" namedescription="a lead waste" race="venom" experience="254" speed="160" manacost="360">
-	<health now="24" max="24"/>
+	<health now="2400" max="2400"/>
 	<look type="316" corpse="9961"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

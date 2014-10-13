@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 44) Infested Worker" namedescription="a infested worker" race="venom" experience="904" speed="236" manacost="660">
-	<health now="44" max="44"/>
+	<health now="4400" max="4400"/>
 	<look type="247" corpse="6516"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

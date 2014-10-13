@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 63) Mummy" namedescription="a mummy" race="blood" experience="1892" speed="334" manacost="945">
-	<health now="63" max="63"/>
+	<health now="6300" max="6300"/>
 	<look type="65" corpse="6004"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

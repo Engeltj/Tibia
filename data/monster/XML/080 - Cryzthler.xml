@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 80) Cryzthler" namedescription="a cryzthler" race="blood" experience="3082" speed="368" manacost="1200">
-	<health now="80" max="80"/>
+	<health now="800" max="800"/>
 	<look type="500" corpse="18384"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 90) Firebug" namedescription="a firebug" race="blood" experience="3917" speed="388" manacost="1350">
-	<health now="90" max="90"/>
+	<health now="900" max="900"/>
 	<look type="284" corpse="8593"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

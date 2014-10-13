@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 73) Desert Drake" namedescription="a desert drake" race="blood" experience="2557" speed="354" manacost="1095">
-	<health now="73" max="73"/>
+	<health now="7300" max="7300"/>
 	<look type="239" corpse="6302"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

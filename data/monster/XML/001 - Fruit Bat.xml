@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 1) Fruit Bat" namedescription="a fruit bat" race="blood" experience="1" speed="210" manacost="15">
-	<health now="1" max="1"/>
+	<health now="10" max="10"/>
 	<look type="122" corpse="6053"/>
 	<targetchange interval="2000" chance="50"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 11) Swamp Snake" namedescription="a swamp snake" race="blood" experience="46" speed="230" manacost="165">
-	<health now="11" max="11"/>
+	<health now="110" max="110"/>
 	<look type="28" corpse="2817"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

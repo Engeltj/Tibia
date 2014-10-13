@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 33) Vyln" namedescription="a vyln" race="blood" experience="497" speed="274" manacost="495">
-	<health now="33" max="33"/>
+	<health now="330" max="330"/>
 	<look type="15" corpse="5960"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

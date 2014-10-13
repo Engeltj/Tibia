@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 52) Alligator" namedescription="a alligator" race="blood" experience="1276" speed="312" manacost="780">
-	<health now="52" max="52"/>
+	<health now="520" max="520"/>
 	<look type="119" corpse="6046"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

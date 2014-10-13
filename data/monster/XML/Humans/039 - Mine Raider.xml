@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 39) Mine Raider" namedescription="a mine raider" race="blood" experience="704" speed="286" manacost="585">
-	<health now="39" max="39"/>
+	<health now="3900" max="3900"/>
 	<look type="289" head="0" body="113" legs="58" feet="38" addons="3" corpse="6080"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

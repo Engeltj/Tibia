@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 62) Ryhally Warrior" namedescription="a ryhally warrior" race="blood" experience="1831" speed="332" manacost="930">
-	<health now="62" max="62"/>
+	<health now="6200" max="6200"/>
 	<look type="146" head="115" body="0" legs="114" feet="0" addons="1" corpse="6080"/>
 	<targetchange interval="2000" chance="15"/>
 	<strategy attack="100" defense="0"/>

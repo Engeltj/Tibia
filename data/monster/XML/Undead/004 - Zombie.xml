@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 4) Zombie" namedescription="a zombie" race="blood" experience="4" speed="216" manacost="60">
-	<health now="4" max="4"/>
+	<health now="400" max="400"/>
 	<look type="18" corpse="5976"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

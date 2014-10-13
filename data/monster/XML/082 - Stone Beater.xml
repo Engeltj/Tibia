@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 82) Stone Beater" namedescription="a stone beater" race="blood" experience="3241" speed="372" manacost="1230">
-	<health now="82" max="82"/>
+	<health now="820" max="820"/>
 	<look type="494" corpse="17407"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 75) Risen" namedescription="a risen" race="blood" experience="2702" speed="358" manacost="1125">
-	<health now="75" max="75"/>
+	<health now="7500" max="7500"/>
 	<look type="37" corpse="5963"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

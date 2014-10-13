@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 58) Tolomaq" namedescription="a tolomaq" race="blood" experience="1082" speed="304" manacost="720">
-	<health now="48" max="48"/>
+	<health now="4800" max="4800"/>
 	<look type="40" corpse="5985"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

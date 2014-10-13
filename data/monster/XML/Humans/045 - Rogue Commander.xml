@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 45) Rogue Commander" namedescription="a rogue commander" race="blood" experience="947" speed="298" manacost="675">
-	<health now="85" max="85"/>
+	<health now="8500" max="8500"/>
 	<look type="542" head="114" body="57" legs="94" feet="79" addons="3" corpse="6080"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

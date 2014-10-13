@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 0) Deer" nameDescription="a deer" race="blood" experience="0" speed="150" manacost="260">
-	<health now="3" max="3"/>
+	<health now="30" max="30"/>
 	<look type="31" corpse="5970"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

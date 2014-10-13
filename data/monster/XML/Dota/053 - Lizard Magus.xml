@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 3) Lizard Magus" namedescription="a lizard magus" race="blood" experience="1327" speed="314" manacost="795">
-	<health now="53" max="53"/>
+	<health now="5300" max="5300"/>
 	<look type="115" corpse="6041"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

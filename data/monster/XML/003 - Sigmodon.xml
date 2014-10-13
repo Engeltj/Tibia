@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 3) Sigmodon" nameDescription="a sigmodon" race="blood" experience="2" speed="106" manacost="45">
-	<health now="3" max="3"/>
+	<health now="30" max="30"/>
 	<look type="21" corpse="5964"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

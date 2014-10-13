@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Easy Tower" namedescription="a tower" race="blood" speed="0" experience="0" manacost="600000">
-	<health now="100" max="100"/>
+	<health now="10000" max="10000"/>
 	<look typeex="7823" corpse="13972"/>
 	<targetchange interval="1000" chance="75"/>
 	<strategy attack="100" defense="0"/>

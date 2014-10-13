@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 80) Genie" namedescription="a genie" race="blood" experience="3082" speed="368" manacost="1200">
-	<health now="80" max="80"/>
+	<health now="8000" max="8000"/>
 	<look type="51" corpse="6016"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 10) Zex" nameDescription="a zex" race="blood" experience="37" speed="120" manacost="300">
-	<health now="10" max="10"/>
+	<health now="100" max="100"/>
     <look type="63" head="20" body="30" legs="40" feet="50" corpse="6011" /> 
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

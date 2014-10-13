@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 63) King Crab" namedescription="a king crab" race="blood" experience="1892" speed="334" manacost="945">
-	<health now="63" max="63"/>
+	<health now="630" max="630"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

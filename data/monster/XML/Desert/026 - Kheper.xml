@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 26) Kheper" namedescription="a kheper" race="blood" experience="301" speed="260" manacost="390">
-	<health now="26" max="26"/>
+	<health now="2600" max="2600"/>
 	<look type="83" corpse="6024"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 16) Spider" namedescription="a spider" race="venom" experience="106" speed="240" manacost="240">
-	<health now="16" max="16"/>
+	<health now="160" max="160"/>
 	<look type="30" corpse="5961"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

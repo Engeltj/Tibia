@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 81) Risen Warrior" namedescription="a risen warrior" race="blood" experience="3161" speed="370" manacost="1215">
-	<health now="81" max="81"/>
+	<health now="8100" max="8100"/>
 	<look type="298" corpse="5972"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

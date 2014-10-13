@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Tier 1) Lizard Warrior" namedescription="a (tier 1) lizard warrior" race="blood" experience="0" speed="320" manacost="750">
-	<health now="50" max="50"/>
+	<health now="5000" max="5000"/>
 	<look type="114" corpse="6040"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

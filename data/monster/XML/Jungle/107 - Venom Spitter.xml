@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 107) Venom Spitter" namedescription="a venom spitter" race="venom" experience="5566" speed="422" manacost="1605">
-	<health now="107" max="107"/>
+	<health now="10700" max="10700"/>
 	<look type="124" corpse="6050"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

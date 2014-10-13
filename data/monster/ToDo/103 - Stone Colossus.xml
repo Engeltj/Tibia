@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 103) Stone Colossus" namedescription="a stone colossus" race="blood" experience="5152" speed="414" manacost="1545">
-	<health now="103" max="103"/>
+	<health now="1030" max="1030"/>
 	<look type="67" corpse="6005"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

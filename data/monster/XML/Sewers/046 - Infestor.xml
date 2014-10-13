@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 46) Infestor" namedescription="a infestor" race="venom" experience="991" speed="240" manacost="690">
-	<health now="46" max="46"/>
+	<health now="4600" max="4600"/>
 	<look type="499" corpse="17429"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

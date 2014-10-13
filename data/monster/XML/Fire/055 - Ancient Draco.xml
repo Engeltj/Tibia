@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 55) Ancient Draco" namedescription="a ancient draco" race="blood" experience="1432" speed="318" manacost="825">
-	<health now="55" max="55"/>
+	<health now="5500" max="5500"/>
 	<look type="39" corpse="5984"/>
 	<targetchange interval="2000" chance="20"/>
 	<strategy attack="100" defense="0"/>

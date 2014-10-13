@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 163) Poison Drake" namedescription="a poison drake" race="blood" experience="13042" speed="534" manacost="2445">
-	<health now="163" max="163"/>
+	<health now="1630" max="1630"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

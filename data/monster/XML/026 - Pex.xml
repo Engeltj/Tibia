@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 26) Pex" namedescription="a pex" race="blood" experience="301" speed="260" manacost="390">
-	<health now="26" max="26"/>
+	<health now="260" max="260"/>
 	<look type="34" corpse="5973"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

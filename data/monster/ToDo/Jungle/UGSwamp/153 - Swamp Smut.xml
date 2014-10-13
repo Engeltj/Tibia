@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 153) Swamp Smut" namedescription="a swamp smut" race="blood" experience="11477" speed="514" manacost="2295">
-	<health now="153" max="153"/>
+	<health now="1530" max="1530"/>
 	<look type="" head="" body="" legs="" feet="" corpse=""/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

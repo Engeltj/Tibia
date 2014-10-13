@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 60) Linamens" nameDescription="a linamens" race="blood" experience="1712" speed="220" manacost="900">
-	<health now="60" max="60"/>
+	<health now="600" max="600"/>
 	<look type="282" corpse="7930"/>
 	<targetchange interval="5000" chance="16"/>
 	<strategy attack="100" defense="0"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 43) Crypt Beast" namedescription="a crypt beast" race="undead" experience="862" speed="294" manacost="645">
-	<health now="43" max="43"/>
+	<health now="4300" max="4300"/>
 	<look type="100" corpse="6029"/>
 	<targetchange interval="2000" chance="0"/>
 	<strategy attack="100" defense="0"/>

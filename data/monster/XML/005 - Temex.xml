@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 5) Temex" nameDescription="a temex" race="blood" experience="7" speed="190" emblem="red" manacost="75" >
-	<health now="5" max="5"/>
+	<health now="50" max="50"/>
 	<look type="76" head="0" body="0" legs="0" feet="0" corpse="6018"/>
 	<targetchange interval="5000" chance="8"/>
 	<strategy attack="100" defense="0"/>

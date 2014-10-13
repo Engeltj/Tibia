@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 22) Stinger" namedescription="a stinger" race="blood" experience="211" speed="252" manacost="330">
-	<health now="22" max="22"/>
+	<health now="220" max="220"/>
 	<look type="44" corpse="5989"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>

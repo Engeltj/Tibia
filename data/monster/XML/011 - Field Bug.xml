@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="(Level 11) Field Bug" namedescription="a field bug" race="blood" experience="46" speed="230" manacost="165">
-	<health now="11" max="11"/>
+	<health now="110" max="110"/>
 	<look type="45" corpse="5990"/>
 	<targetchange interval="2000" chance="10"/>
 	<strategy attack="100" defense="0"/>
