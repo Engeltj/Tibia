@@ -105,14 +105,18 @@ end
 
 function createShopItem(pos, level_max)
 	doCleanTile(pos,false)
-	
+
 	local itens = math.random(1,#game_items)
-	while ((getItemInfo(game_items[itens]).attack > level_max) or (getItemInfo(game_items[itens]). armor > level_max)) or 
-			((getItemInfo(game_items[itens]). defense > level_max) and (getItemInfo(game_items[itens]).attack == 0)) do
-		itens = math.random(1,#game_items)
+	local info = ItemType(game_items[itens])
+	while true do
+		if (((info:getAttack() > level_max) or (info:getArmor() > level_max)) or ((info:getDefense() > level_max) and (info:getAttack() == 0))) then
+			itens = math.random(1,#game_items)
+			info = ItemType(game_items[itens])
+			break
+		end
 	end
-	local temp = doCreateItem(game_items[itens], pos)
-	local getItem = getItemInfo(game_items[itens])
+	local temp = createItem(info:getId(), pos)
+	local item = Item(pos)
 	local a = {attack = getItem.attack or 0,defense = getItem.defense or 0,armor = getItem.armor or 0}
 	doItemSetAttribute(temp, 'aid', 2031)
 	-- doItemSetAttribute(temp, 'attack', math.random(math.ceil(a.attack*0.8),math.ceil(a.attack*1.25)))
@@ -123,17 +127,17 @@ function createShopItem(pos, level_max)
 	setItemArmor(temp, math.random(math.ceil(a.armor*0.8),math.ceil(a.armor*1.25)))
 end
 
-function cost(iten_lava, level)
-	local getItem = getItemInfo(iten_lava.itemid)
-	local attack = tonumber(getItemAttribute(iten_lava.uid, 'attack')) or 0
-	local defense = tonumber(getItemAttribute(iten_lava.uid, 'defense')) or 0
-	local armor = tonumber(getItemAttribute(iten_lava.uid, 'armor')) or 0
-	print(attack .. " " .. defense .. " " .. armor)
-	if((getItem.weaponType >= 1 and getItem.weaponType <= 3) and not isItemStackable(iten_lava.itemid)) then
+function cost(item, level)
+	local attack = item:getAttribute('attack') or 0
+	local defense = item:getAttribute('defense') or 0
+	local armor = item:getAttribute('armor') or 0
+	local weaponType = item:getType():getWeaponType()
+	print(tostring(item:getId()) .. " " .. attack .. " " .. defense .. " " .. armor)
+	if((weaponType == WEAPON_AXE or weaponType == WEAPON_SWORD or weaponType == WEAPON_CLUB)) then
 		local general_cost = attack * 65 * 0.4 + level*level/1.5 * 35 * 0.1
 		local cost_item = math.ceil(general_cost * 0.7) --convenience fee? :P balance out user choice to upgrade weapon over all other armors.
 		return cost_item
-	elseif (getItem.weaponType == 4) or (getItem.weaponType == 7) then --BOW
+	elseif (weaponType == WEAPON_DISTANCE) or (weaponType == 7) then --BOW
 		local general_cost = attack * 65 * 0.4 + level*level/1.5 * 35 * 0.1
 		local cost_item = math.ceil(general_cost * 0.7)
 		return cost_item
@@ -141,7 +145,7 @@ function cost(iten_lava, level)
 		local general_cost = armor * 65 * 0.1 + level*level/1.5 * 35 * 0.1
 		local cost_item = math.ceil(general_cost * 0.7)
 		return cost_item
-	elseif (getItem.weaponType == 5) then --SHIELD
+	elseif (weaponType == WEAPON_SHIELD) then --SHIELD
 		local general_cost = defense * 65 * 0.2 + level*level/1.5 * 35 * 0.1
 		local cost_item = math.ceil(general_cost * 0.7) --convenience fee? :P balance out user choice to upgrade weapon over all other armors.
 		return cost_item

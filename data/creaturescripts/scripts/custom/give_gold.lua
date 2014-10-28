@@ -7,7 +7,7 @@ function onKill(cid, target, lastHit)
 				damage = dmg.total
 				break
 			end
-		end=
+		end
 		local health = damage / 25
 		health = math.ceil(health)
 		if (health <= 0) then

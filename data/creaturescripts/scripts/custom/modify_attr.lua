@@ -50,7 +50,7 @@ function recursive(container, level)
 		if isWeapon(bodycontainer) or isBow(bodycontainer) or isWand(bodycontainer) then
 			bodycontainer:setAttribute("attack", math.ceil(level*attr_atk/100))
 			if not (isBow(bodycontainer) or isWand(bodycontainer)) then --getItemAttribute(bodycontainer.uid, "slottype") == "two-handed" then
-				if getItemAttribute(bodycontainer, "slottype") == "two-handed" then
+				if bodycontainer:getAttribute("slottype") == "two-handed" then
 					bodycontainer:setAttribute("defense",  math.ceil(level*attr_def/100)*2)
 				else
 					bodycontainer:setAttribute("defense",  math.ceil(level*attr_def/100))

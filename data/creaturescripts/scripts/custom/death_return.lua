@@ -1,19 +1,19 @@
 function onPrepareDeath(cid, lastHitKiller, mostDamageKiller)
 	if isPlayer(cid) then
-		if isPlayer(lastHitKiller) then
-			local skull = getPlayerSkullType(cid)
-			if (skull == SKULL_NONE) then
-				doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 5)
-			elseif (skull == SKULL_YELLOW) then
-				doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 7)
-			elseif (skull == SKULL_YELLOW) then
-				doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)
-			elseif (skull == SKULL_YELLOW) then
-				doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 20)
-			elseif (skull == SKULL_YELLOW) then
-				doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 30)
-			end
-		end
+		-- if isPlayer(lastHitKiller) then
+		-- 	local skull = getPlayerSkullType(cid)
+		-- 	if (skull == SKULL_NONE) then
+		-- 		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 5)
+		-- 	elseif (skull == SKULL_YELLOW) then
+		-- 		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 7)
+		-- 	elseif (skull == SKULL_YELLOW) then
+		-- 		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)
+		-- 	elseif (skull == SKULL_YELLOW) then
+		-- 		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 20)
+		-- 	elseif (skull == SKULL_YELLOW) then
+		-- 		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 30)
+		-- 	end
+		-- end
 		local chance = math.random(1000)
 		doCreatureSay(cid, "You\'re dead to me.", TALKTYPE_ORANGE_1)
 		--addEvent(doBroadcastMessage, 150, "God has chosen to spare "..getPlayerName(cid) .." from dying!", MESSAGE_STATUS_DEFAULT)

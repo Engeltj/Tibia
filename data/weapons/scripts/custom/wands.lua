@@ -97,8 +97,17 @@ setCombatParam(default, COMBAT_PARAM_AGGRESSIVE, true)
 
 function getDamage(cid, level, maglevel)
 	local wand = getWand(cid)
-	local attack = wand:getAttribute('attack') or 0
+	local attack = wand:getAttribute('Attack') or 0
+	local attack2 = wand:getAttribute('attack') or 0
+	local attack3 = wand:getAttribute('atk') or 0
+	local attack4 = wand:getAttribute('defense') or 0
+	--wand:setAttack(1000)
+	print ("Wand attack: " .. tostring(attack))
+	print ("Wand attack: " .. tostring(attack2))
+	print ("Wand attack: " .. tostring(attack3))
+	print ("Wand attack: " .. tostring(attack4))
 	local maximum =	0.085 * 1 * attack * maglevel + level/5 + attack
+	maximum = maximum * 10
 	return maximum
 end
 
